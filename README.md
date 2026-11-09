@@ -2,6 +2,8 @@
 
 **Estado actual (09-11-2026):** proyecto local en revisión visual. La demo y el servidor están apagados; todavía no hay despliegue público. La revisión de las rutas públicas y ficticias a 320/390 px está documentada en [el barrido visual](docs/evidencias/barrido-visual-2026-11-09.md). Las notas fechadas a continuación son hitos históricos y los enlaces a `127.0.0.1` solo funcionan cuando se inicia la demo local.
 
+**Ideas contrastadas con proyectos abiertos:** [investigación de repositorios e issues de GitHub](docs/investigacion-github-2026-11-09.md), con decisiones y tareas priorizadas para Forma.
+
 **Preparación de servidor de pruebas (26-10-2026):** [auditoría de código, API, base de datos, PWA y despliegue](docs/evidencias/auditoria-staging-2026-10-26.md). Los fallos locales detectados se corrigieron y verificaron; siguen pendientes el motor Docker, dominio/HTTPS, SMTP y validación en teléfonos reales. No hay despliegue público todavía.
 
 **T17 · antropometría en prueba local (26-10-2026):** el coach ya puede registrar evaluaciones ISAK restringidas, medidas propias y datos BIA/DXA; el alumno ve las finalizadas. Historial, estimación opcional y exportación PDF/Excel verificados con datos ficticios, build y recorrido dirigido a 320/390/1366 px. [Abrir demo privada](http://127.0.0.1:4180/acceso) en este PC y consultar [cuentas ficticias](.local/manual-demo/ACCESOS.md), [guía](docs/runbooks/t17-antropometria.md) y [límites pendientes](docs/tandas/17-antropometria-y-densidad-visual.md). Las notas T16 siguientes son históricas.
