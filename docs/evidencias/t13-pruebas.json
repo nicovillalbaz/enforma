@@ -1,0 +1,43 @@
+{
+  "version": "0.13.0",
+  "scope": "new-targeted-integration-only",
+  "runs": [
+    {
+      "file": "t13-integration.json",
+      "total": 4,
+      "passed": 3,
+      "failed": 1,
+      "skipped": 0
+    },
+    {
+      "file": "t13-count-directed.json",
+      "total": 4,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 3
+    }
+  ],
+  "uniquePassed": 4,
+  "assertions": [
+    {
+      "name": "restricts new registrations to independent coaches in API and DB without granting the old constructor",
+      "status": "passed",
+      "source": "t13-integration.json"
+    },
+    {
+      "name": "reports real setup and whole-study student counts without returning contact lists",
+      "status": "passed",
+      "source": "t13-integration.json"
+    },
+    {
+      "name": "limits the start overview to the active owner of the current study",
+      "status": "passed",
+      "source": "t13-integration.json"
+    },
+    {
+      "name": "counts distinct published routines and only assignments for active students that have not ended",
+      "status": "passed",
+      "source": "t13-count-directed.json"
+    }
+  ]
+}

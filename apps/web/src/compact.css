@@ -1,0 +1,761 @@
+/* Forma workspace: one document scroll, compact typography, content authored by the coach. */
+:root {
+  --font-heading: 'Inter Variable', system-ui, sans-serif;
+  --radius: 12px;
+  --shadow: none;
+  font-size: 14px;
+  line-height: 1.45;
+}
+body,
+#app {
+  min-height: 100dvh;
+}
+.app-layout {
+  width: 100%;
+}
+.main-shell {
+  width: 100%;
+}
+.page-content {
+  max-width: none;
+  padding: 20px 24px 32px;
+}
+.page-content h1,
+.flow-page h1 {
+  font-size: 22px;
+  line-height: 1.25;
+  letter-spacing: -0.55px;
+  margin: 0 0 8px;
+}
+.page-content h2 {
+  font-size: 17px;
+  line-height: 1.35;
+  letter-spacing: -0.3px;
+}
+.page-content h3 {
+  font-size: 15px;
+  line-height: 1.35;
+  letter-spacing: -0.15px;
+}
+.page-content p {
+  line-height: 1.5;
+}
+.page-heading {
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.page-heading p {
+  margin: 4px 0 0;
+  font-size: 13px;
+}
+.page-heading .date-eyebrow,
+.program-banner,
+.library-intro,
+.studio-tip {
+  display: none;
+}
+.ui-card {
+  border-radius: 12px;
+  box-shadow: none;
+}
+.page-content .field {
+  font-size: 13px;
+  font-weight: 550;
+  margin-bottom: 14px;
+  gap: 6px;
+}
+.page-content .field input,
+.page-content .field select,
+.page-content .field textarea {
+  min-width: 0;
+  max-width: 100%;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 1.4;
+  min-height: 44px;
+  padding: 10px 12px;
+}
+.field textarea {
+  min-height: 82px;
+  resize: vertical;
+}
+.ui-button {
+  border-radius: 8px;
+  min-height: 40px;
+  padding: 8px 12px;
+  font-weight: 600;
+}
+.icon-button {
+  width: 40px;
+  height: 40px;
+}
+.topbar {
+  min-height: 54px;
+  padding: 0 24px;
+}
+.sidebar {
+  width: 208px;
+  padding: 16px 12px 12px;
+}
+.brand strong {
+  font-size: 15px;
+  line-height: 1.35;
+  letter-spacing: -0.25px;
+}
+.workspace-switch {
+  margin: 18px 0;
+  padding: 8px;
+  min-height: 34px;
+}
+.nav-label {
+  margin-bottom: 6px;
+  font-size: 10px;
+  letter-spacing: 0.7px;
+}
+.desktop-nav {
+  gap: 2px;
+}
+.desktop-nav a {
+  min-height: 36px;
+  padding: 8px 10px;
+  gap: 9px;
+  font-size: 12px;
+}
+.desktop-nav svg {
+  width: 17px;
+  height: 17px;
+}
+.second-label {
+  margin-top: 20px;
+}
+.sidebar-bottom {
+  padding-top: 16px;
+}
+.page-footer {
+  margin: 0 24px;
+  padding-block: 12px;
+}
+.page-footer .creator-signature {
+  font-size: 10px;
+}
+.flow-page {
+  width: 100%;
+  min-width: 0;
+}
+.flow-heading {
+  margin: 0 0 20px;
+}
+.flow-back {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 40px;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+.flow-form,
+.flow-page .settings-form {
+  margin: 0;
+  padding: 0;
+}
+.flow-form {
+  max-width: 960px;
+}
+.flow-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+  margin: 20px 0 0;
+}
+.flow-page > form,
+.flow-page .library-form {
+  max-width: 1120px;
+}
+.flow-page > form > h2 {
+  margin: 0 0 20px;
+}
+.flow-page .settings-form + .settings-form {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+.action-review-message {
+  max-width: 60ch;
+  margin: 12px 0 24px;
+}
+.coach-field {
+  min-width: 0;
+  margin-bottom: 14px;
+}
+.coach-field .field {
+  margin-bottom: 4px;
+}
+.coach-field-tools {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.coach-field-tools button {
+  font-size: 12px;
+  min-height: 36px;
+  color: var(--brand-ink);
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  padding: 6px 10px;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.coach-field-tools button:hover,
+.coach-field-tools button:focus-visible {
+  background: var(--brand-soft);
+}
+.coach-choice-list {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  padding: 8px 0;
+}
+.coach-choice-list button {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 8px 10px;
+  min-height: 40px;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+.program-editor .program-builder-grid {
+  display: block;
+}
+.program-editor .builder-stage {
+  display: none;
+  padding: 18px;
+  position: static;
+  max-height: none;
+  overflow: visible;
+}
+.program-editor .builder-stage.is-visible {
+  display: block;
+}
+.program-editor .program-mobile-steps {
+  display: grid !important;
+  margin: 0 0 16px;
+  max-width: 760px;
+}
+.program-editor .program-mobile-next {
+  display: none !important;
+}
+.program-editor .program-editor-actions {
+  position: static;
+  box-shadow: none;
+  padding: 12px 0;
+  margin: 16px 0 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+  border-radius: 0;
+}
+.program-editor .program-editor-actions > span {
+  max-width: none;
+}
+.program-editor .program-section-title {
+  margin: 0 0 12px;
+}
+.program-editor .program-outline {
+  margin-block: 10px;
+}
+.program-editor .program-outline button,
+.program-editor .program-entry-list button {
+  padding: 10px 12px;
+  min-height: 44px;
+  border-radius: 8px;
+}
+.program-editor .program-day-tabs {
+  margin: 12px 0;
+  gap: 8px;
+  overflow: visible;
+  flex-wrap: wrap;
+}
+.program-editor .program-day-tabs button {
+  min-height: 52px;
+  padding: 8px 12px;
+}
+.program-editor .program-week-tools {
+  gap: 6px;
+  margin: 12px 0;
+}
+.program-editor .program-prescription {
+  border-radius: 10px;
+  padding: 14px;
+  margin-top: 16px;
+}
+.program-editor .program-set-fields {
+  grid-template-columns: repeat(auto-fit, minmax(min(114px, 100%), 1fr));
+  gap: 8px;
+  padding: 12px 0;
+}
+.program-editor .program-set-fields .field {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+.program-editor .program-set-fields legend {
+  font-size: 13px;
+}
+.program-editor .program-review-stats {
+  display: flex;
+  gap: 28px;
+  padding-block: 12px;
+  margin-block: 12px;
+}
+.program-editor .program-review-stats strong {
+  font-size: 24px;
+}
+.program-editor .program-review h2 {
+  margin: 4px 0 12px;
+}
+.program-editor .program-review > p {
+  margin-block: 10px;
+}
+.program-editor .program-picker {
+  max-height: none;
+  overflow: visible;
+  padding: 12px;
+}
+.editor-step-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+.program-card-grid,
+.program-assignment-grid,
+.library-grid {
+  gap: 12px;
+  margin: 16px 0;
+}
+.program-card-visual {
+  min-height: 56px;
+  background: var(--surface-soft);
+  padding: 12px 16px;
+  gap: 10px;
+  color: var(--brand-ink);
+}
+.program-card-visual > svg {
+  display: none;
+}
+.program-card-visual > span {
+  position: static;
+  border: 0;
+  padding: 0;
+  color: var(--muted);
+}
+.program-card-visual > strong {
+  font-size: 20px;
+  letter-spacing: -0.4px;
+}
+.program-card-visual small {
+  display: inline;
+  margin-left: 5px;
+  color: var(--muted);
+}
+.program-card-body,
+.program-assignment,
+.student-program-card,
+.library-card-content {
+  padding: 16px;
+}
+.program-card-body h2,
+.program-assignment h2,
+.student-program-card h2,
+.library-card-content h2 {
+  font-size: 17px;
+  margin-block: 8px;
+}
+.program-card-actions {
+  margin-top: 12px;
+  padding-top: 12px;
+}
+.library-cover {
+  height: 116px;
+}
+.library-cover > svg {
+  width: 40px;
+  height: 40px;
+}
+.library-player {
+  max-height: none;
+}
+.library-player video,
+.library-player img {
+  width: 100%;
+  max-height: 55dvh;
+  object-fit: contain;
+}
+.progress-photo-page {
+  margin: 0;
+}
+.progress-photo-page img {
+  display: block;
+  max-width: 100%;
+  max-height: 70dvh;
+  object-fit: contain;
+}
+.progress-photo-page figcaption {
+  margin-top: 12px;
+  color: var(--muted);
+}
+.coach-heading {
+  margin-bottom: 16px;
+}
+.coach-heading h1 {
+  font-size: 22px;
+}
+.coach-heading > div > p,
+.coach-welcome,
+.coach-progress > small {
+  display: none;
+}
+.coach-metrics {
+  gap: 12px;
+  margin: 16px 0;
+}
+.coach-metrics .ui-card {
+  padding: 16px;
+}
+.coach-metrics .ui-card > strong {
+  font-size: 26px;
+}
+.coach-metrics .ui-card > svg {
+  display: none;
+}
+.coach-checklist {
+  padding: 16px;
+}
+.coach-checklist .coach-step {
+  padding: 12px;
+}
+.install-welcome {
+  min-height: 100svh;
+  width: 100%;
+  padding: max(24px, env(safe-area-inset-top)) 22px max(20px, env(safe-area-inset-bottom));
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  background: var(--surface);
+}
+.install-welcome-content {
+  margin-block: auto;
+}
+.install-welcome h1 {
+  font-size: 28px;
+  line-height: 1.15;
+  letter-spacing: -0.8px;
+  max-width: 12ch;
+}
+.install-welcome p {
+  font-size: 15px;
+  color: var(--muted);
+  margin: 16px 0 24px;
+}
+.install-welcome small {
+  color: var(--muted);
+  font-size: 12px;
+}
+.install-steps {
+  padding-left: 20px;
+  display: grid;
+  gap: 14px;
+  font-size: 15px;
+}
+.install-steps svg {
+  vertical-align: middle;
+}
+.install-continue {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  min-height: 48px;
+  margin-top: 20px;
+  color: var(--brand-ink);
+  font-size: 14px;
+}
+@media (min-width: 1024px) {
+  .sidebar {
+    display: flex;
+  }
+  .main-shell {
+    margin-left: 208px;
+    width: calc(100% - 208px);
+  }
+  .flow-form {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 18px;
+  }
+  .flow-form .coach-field,
+  .flow-form .form-error,
+  .flow-form .flow-actions {
+    grid-column: 1 / -1;
+  }
+  .program-editor .program-structure.is-visible {
+    display: block;
+    max-width: 980px;
+  }
+  .program-structure > .field {
+    max-width: 720px;
+  }
+  .program-structure .program-outline {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+}
+@media (max-width: 1023px) {
+  .sidebar {
+    display: none;
+  }
+  .main-shell {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .page-content {
+    padding: 16px 14px calc(86px + env(safe-area-inset-bottom));
+  }
+  .topbar {
+    min-height: 52px;
+    padding-inline: 14px;
+  }
+  .page-heading {
+    align-items: flex-start;
+    margin-bottom: 14px;
+  }
+  .page-content h1,
+  .program-editor .page-heading h1 {
+    font-size: 22px;
+  }
+  .ui-button,
+  .icon-button,
+  .flow-back,
+  .coach-field-tools button,
+  .coach-choice-list button {
+    min-height: 44px;
+  }
+  .icon-button {
+    width: 44px;
+  }
+  .page-footer {
+    margin-inline: 14px;
+  }
+  .program-editor .builder-stage {
+    padding: 14px;
+    border-radius: 10px;
+  }
+  .program-editor .program-set-fields {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .program-editor-actions .ui-button {
+    flex: 1 1 120px;
+  }
+  .flow-heading {
+    margin-bottom: 14px;
+  }
+  .program-card-grid,
+  .program-assignment-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .coach-metrics {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+  }
+  .coach-metrics .ui-card {
+    padding: 12px 8px;
+  }
+  .coach-metrics .ui-card > strong {
+    font-size: 22px;
+  }
+  .coach-metrics .ui-card > span,
+  .coach-metrics .ui-card > small {
+    font-size: 11px;
+  }
+}
+
+.symbol-selector {
+  margin-block: 16px;
+}
+.symbol-selector summary {
+  cursor: pointer;
+  min-height: 44px;
+  padding-block: 12px;
+  font-size: 13px;
+}
+.symbol-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.symbol-grid button {
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--text);
+  padding: 10px;
+  font-size: 11px;
+}
+.symbol-grid button.selected {
+  border-color: var(--brand);
+  background: var(--brand-soft);
+}
+.symbol-grid svg {
+  height: 72px;
+  display: block;
+  margin-bottom: 8px;
+}
+.library-cover > .exercise-symbol {
+  width: 110px;
+  height: 88px;
+}
+.library-cover:has(.exercise-art-cover) {
+  height: 150px;
+  background: #f7fafc;
+}
+.library-cover > .exercise-art-cover {
+  object-fit: contain;
+  padding: 2px 6px;
+  transform: scale(1.08);
+}
+.library-cover > .library-unillustrated-icon {
+  width: 40px;
+  height: 40px;
+  color: #8a9aad;
+}
+.library-cover-tag.equipment-barbell {
+  background: #e5eef7;
+  color: #224a71;
+  border-color: #b8cde0;
+}
+.library-cover-tag.equipment-dumbbell {
+  background: #fff0e7;
+  color: #9b491e;
+  border-color: #eac6b1;
+}
+.library-cover-tag.equipment-machine {
+  background: #e4f5f4;
+  color: #176866;
+  border-color: #b6dedb;
+}
+.library-cover-tag.equipment-cable {
+  background: #f1edfa;
+  color: #674b93;
+  border-color: #d4c6ee;
+}
+.library-cover-tag.equipment-floor,
+.library-cover-tag.equipment-bench,
+.library-cover-tag.equipment-tool {
+  background: #f0f3e8;
+  color: #53692c;
+  border-color: #d5dfba;
+}
+.exercise-art-reference {
+  width: min(100%, 440px);
+  margin: 12px auto 18px;
+}
+.exercise-art-sequence {
+  position: relative;
+  height: clamp(220px, 48vw, 318px);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #f8fafc;
+  overflow: hidden;
+}
+.exercise-art-frame {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 8px;
+  opacity: 0;
+  animation: exercise-art-cycle 1.8s ease-in-out infinite;
+}
+.exercise-art-frame.frame-1 {
+  animation-delay: 0s;
+}
+.exercise-art-frame.frame-2 {
+  animation-delay: -0.9s;
+}
+@keyframes exercise-art-cycle {
+  0%,
+  44% {
+    opacity: 1;
+  }
+  50%,
+  94% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.exercise-art-reference figcaption {
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 10px;
+  text-align: center;
+}
+.exercise-art-reference figcaption a {
+  color: inherit;
+}
+@media (prefers-reduced-motion: reduce) {
+  .exercise-art-frame {
+    animation: none;
+  }
+  .exercise-art-frame.frame-1 {
+    opacity: 1;
+  }
+}
+.exercise-visual-reference {
+  display: grid;
+  place-items: center;
+  width: min(100%, 380px);
+  height: 228px;
+  margin: 14px auto 18px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+}
+.exercise-visual-reference svg {
+  display: block;
+  width: min(100%, 265px);
+  height: 178px;
+}
+.exercise-unillustrated {
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 8px;
+  width: min(100%, 380px);
+  height: 190px;
+  margin: 14px auto 18px;
+  border: 1px dashed var(--line);
+  border-radius: 14px;
+  color: var(--muted);
+  background: var(--surface);
+}
+.exercise-unillustrated span {
+  font-size: 12px;
+}

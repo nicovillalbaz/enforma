@@ -1,0 +1,23 @@
+{
+  "version": "0.11.0",
+  "scope": "synthetic-local",
+  "browserInstances": 1,
+  "pdfGenerations": 0,
+  "checks": [
+    "pupil reserves through UI",
+    "two worker ticks produce one reminder",
+    "coach sees confirmed booking"
+  ],
+  "viewportWidths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "errors": [],
+  "status": "failed",
+  "stage": "reflow",
+  "failure": "Expected values to be strictly equal:\n\n0 !== 3\n",
+  "fixtureCleaned": true,
+  "durationMs": 24210
+}

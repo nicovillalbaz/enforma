@@ -1,0 +1,343 @@
+.commerce-workspace {
+  min-width: 0;
+  max-width: 100%;
+}
+.commerce-heading,
+.commerce-section-title,
+.commerce-toolbar,
+.commerce-actions,
+.commerce-card-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+.commerce-heading {
+  margin-bottom: 1.2rem;
+}
+.commerce-heading h1 {
+  font-size: clamp(1.7rem, 4vw, 2.3rem);
+  margin: 0.4rem 0;
+}
+.commerce-workspace h2 {
+  font-size: 1.2rem;
+  margin: 0.3rem 0;
+}
+.commerce-workspace h3 {
+  font-size: 1.05rem;
+  margin: 0.3rem 0;
+}
+.commerce-muted {
+  color: var(--muted);
+  line-height: 1.6;
+}
+.commerce-workspace p,
+.commerce-workspace strong,
+.commerce-workspace small,
+.commerce-workspace dd {
+  overflow-wrap: anywhere;
+}
+.commerce-preserve {
+  white-space: pre-wrap;
+}
+.commerce-actions {
+  justify-content: flex-start;
+}
+.commerce-section-title {
+  align-items: flex-start;
+}
+.commerce-section-title > div {
+  min-width: 0;
+  flex: 1;
+}
+.commerce-section-title > .commerce-button {
+  flex: none;
+  white-space: nowrap;
+}
+.commerce-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  min-height: 44px;
+  min-width: 44px;
+  max-width: 100%;
+  padding: 0.65rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-weight: 550;
+  text-decoration: none;
+  cursor: pointer;
+  overflow-wrap: anywhere;
+  box-sizing: border-box;
+}
+.commerce-button.primary {
+  background: var(--brand);
+  color: var(--brand-text);
+  border-color: var(--brand);
+}
+.commerce-button:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+.commerce-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+.commerce-tabs button {
+  flex: 1;
+  min-height: 44px;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--muted);
+  font: inherit;
+  cursor: pointer;
+}
+.commerce-tabs button[aria-pressed='true'] {
+  background: var(--surface-soft);
+  color: var(--brand-ink);
+  font-weight: 650;
+}
+.commerce-stack {
+  display: grid;
+  gap: 1rem;
+  min-width: 0;
+}
+.commerce-field {
+  display: grid;
+  gap: 0.45rem;
+  min-width: 0;
+  font-size: 0.88rem;
+  font-weight: 550;
+}
+.commerce-field small {
+  font-weight: 400;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.commerce-workspace input:not([type='checkbox']),
+.commerce-workspace select,
+.commerce-workspace textarea {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.7rem;
+}
+.commerce-workspace input[type='file'] {
+  padding: 0.65rem;
+  overflow: hidden;
+}
+.commerce-workspace textarea {
+  resize: vertical;
+}
+.commerce-check {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  min-height: 44px;
+}
+.commerce-check input {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--brand);
+  flex: none;
+}
+.commerce-form-grid,
+.commerce-service-grid,
+.commerce-prospect-grid,
+.commerce-summary-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+}
+.commerce-toolbar {
+  margin-bottom: 1rem;
+  align-items: flex-end;
+}
+.commerce-search {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+  flex: 1;
+  min-width: 0;
+}
+.commerce-search > .commerce-field {
+  flex: 1;
+  min-width: min(170px, 100%);
+}
+.commerce-highlight {
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface-soft);
+  line-height: 1.6;
+}
+.commerce-highlight > strong {
+  font-size: 1.15rem;
+}
+.commerce-highlight p {
+  margin: 0.4rem 0;
+}
+.commerce-badge {
+  display: inline-block;
+  padding: 0.35rem 0.55rem;
+  border-radius: 10px;
+  background: var(--surface-soft);
+  color: var(--brand-ink);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.commerce-price {
+  font-size: 1.4rem;
+  display: block;
+  margin: 0.8rem 0;
+}
+.commerce-service,
+.commerce-prospect {
+  min-width: 0;
+  align-content: start;
+}
+.commerce-installment {
+  display: grid;
+  gap: 0.8rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.commerce-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+.commerce-columns.has-selection > .commerce-contract-list {
+  display: none;
+}
+.commerce-contract-card {
+  display: grid;
+  gap: 0.6rem;
+  width: 100%;
+  min-width: 0;
+  text-align: left;
+  margin-top: 0.8rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+.commerce-contract-card[aria-pressed='true'] {
+  border-color: var(--brand);
+  background: var(--surface-soft);
+}
+.commerce-contract-card small {
+  color: var(--muted);
+}
+.commerce-placeholder {
+  display: none;
+  text-align: center;
+  align-content: center;
+  min-height: 280px;
+  color: var(--muted);
+}
+.commerce-contract-detail {
+  min-width: 0;
+}
+.commerce-charge,
+.commerce-movement {
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface-soft);
+  min-width: 0;
+}
+.commerce-payment,
+.commerce-history {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 0.8rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--line);
+  min-width: 0;
+}
+.commerce-payment small {
+  color: var(--muted);
+}
+.commerce-summary dl {
+  display: grid;
+  gap: 0.85rem;
+  margin: 1rem 0 0;
+}
+.commerce-summary dl > div {
+  display: grid;
+  gap: 0.3rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid var(--line);
+}
+.commerce-summary dt {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+.commerce-summary dd {
+  margin: 0;
+  font-weight: 600;
+}
+.commerce-workspace details > summary {
+  min-height: 44px;
+  cursor: pointer;
+  line-height: 1.6;
+  padding: 0.5rem 0;
+}
+.commerce-workspace .ui-card {
+  min-width: 0;
+  padding: 1.05rem;
+}
+.commerce-workspace button:focus-visible,
+.commerce-workspace a:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+}
+@media (min-width: 640px) {
+  .commerce-form-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .commerce-installment {
+    grid-template-columns: minmax(0, 0.4fr) repeat(2, minmax(0, 1fr));
+    align-items: center;
+  }
+  .commerce-service-grid,
+  .commerce-prospect-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1100px) {
+  .commerce-columns {
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  }
+  .commerce-columns.has-selection > .commerce-contract-list {
+    display: block;
+  }
+  .commerce-placeholder {
+    display: grid;
+  }
+  .commerce-summary-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

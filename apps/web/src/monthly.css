@@ -1,0 +1,110 @@
+.monthly-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 1rem;
+  margin-block: 1rem;
+}
+.monthly-toolbar .field {
+  flex: 1 1 12rem;
+  min-width: 0;
+}
+.monthly-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+}
+.monthly-card {
+  min-width: 0;
+  padding: clamp(1rem, 3vw, 1.5rem);
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+}
+.monthly-card h2,
+.monthly-card p {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.monthly-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+}
+.monthly-facts span {
+  display: grid;
+  gap: 0.25rem;
+  min-width: 0;
+}
+.monthly-card .monthly-facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.monthly-card .monthly-facts span {
+  overflow-wrap: anywhere;
+}
+.monthly-card .monthly-actions > * {
+  flex: 1 1 150px;
+}
+.monthly-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+}
+.monthly-actions > * {
+  min-height: 44px;
+  max-width: 100%;
+  white-space: normal;
+}
+.monthly-form {
+  display: grid;
+  gap: 1rem;
+  min-width: 0;
+}
+.monthly-form .field {
+  min-width: 0;
+}
+.monthly-form input,
+.monthly-toolbar input {
+  min-width: 0;
+  width: 100%;
+  font-size: 16px;
+}
+.monthly-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 44px;
+}
+.monthly-toggle input {
+  width: 1.25rem;
+  height: 1.25rem;
+  flex: none;
+}
+.monthly-panel {
+  margin-block: 1rem;
+}
+@media (min-width: 768px) {
+  .monthly-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1280px) {
+  .monthly-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (max-width: 640px) {
+  .monthly-toolbar {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 10px;
+  }
+  .monthly-toolbar .field:first-child {
+    grid-column: 1 / -1;
+  }
+  .monthly-toolbar .ui-button {
+    width: auto;
+  }
+}

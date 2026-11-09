@@ -1,0 +1,33 @@
+{
+  "version": "0.13.0",
+  "scope": "read-only-independent-coach",
+  "browserInstances": 1,
+  "domainMutations": 0,
+  "pdfGenerations": 0,
+  "checks": [
+    "coach start matches server counts, five derived steps and NAVZ footer",
+    "single-professional agenda avoids redundant selection",
+    "pupil grouped options preserve five destinations and exclude coach business management",
+    "public and pupil information show exact signature and click-only telephone link",
+    "registration has no gym selector and exact signature; no account submitted"
+  ],
+  "viewportWidths": [
+    320,
+    390,
+    768,
+    1440,
+    320,
+    390,
+    320,
+    390,
+    320,
+    390
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "errors": [],
+  "status": "passed",
+  "durationMs": 15274
+}

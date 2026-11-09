@@ -1,0 +1,13 @@
+{
+  "measuredAt": "2026-10-26T15:04:51.325Z",
+  "transport": "Fastify inject + isolated PostgreSQL, no external network",
+  "actors": 5,
+  "enabledStudents": 50,
+  "requests": 75,
+  "concurrency": 5,
+  "p50Ms": 21,
+  "p95Ms": 191,
+  "maxMs": 202,
+  "errors": 0,
+  "scope": "Synthetic local read workload, not a production capacity guarantee"
+}

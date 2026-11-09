@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-23",
+  "applicationVersion": "0.14.2",
+  "ticket": "T14-08",
+  "migrations": 23,
+  "nextMigration": "024",
+  "newIntegrationCasesPassed": 1,
+  "existingFilteredCasesPassed": 1,
+  "selectedTestsPassed": 2,
+  "selectedTestsFailed": 0,
+  "selectedTestsSkipped": 3,
+  "initialSandboxAttempt": "EACCES before tests; retried only same selection with local database permission",
+  "serverTypecheck": "passed-once",
+  "lintChangedFiles": "passed",
+  "browserDiscovery": {
+    "files": 6,
+    "combinationsListed": 21,
+    "testsExecuted": 0,
+    "browserInstances": 0
+  },
+  "webBuild": {
+    "rebuilt": false,
+    "versionMatches": true,
+    "sourceCurrent": true,
+    "artifactsIntact": true,
+    "sourceFiles": 134,
+    "artifactFiles": 78
+  },
+  "docs": {
+    "files": 11,
+    "localLinksChecked": 224,
+    "brokenLinks": []
+  },
+  "privacy": {
+    "scope": "one pupil and organization",
+    "databaseWrites": false,
+    "encryption": "AES-256-GCM/scrypt",
+    "cliHelpChecked": true,
+    "cliExportAgainstWorkingDatabase": false,
+    "collectorAndEncryptionTestedInFixture": true,
+    "integralPortability": false,
+    "binaryFileExport": false,
+    "deletionImplemented": false,
+    "retentionPolicyApproved": false
+  },
+  "testsFixturePreparationUpdated": true,
+  "historicalSuitesRun": false,
+  "mainDatabaseDomainMutations": 0,
+  "runtimeSourceChanged": false,
+  "newDependencies": 0,
+  "newMigrations": 0,
+  "pdfGenerations": 0,
+  "emailsSent": 0,
+  "realDataExports": 0,
+  "backupRestoreRun": false,
+  "backupIndicatorsExpected": 85,
+  "pilotApproved": false
+}

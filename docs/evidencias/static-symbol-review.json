@@ -1,0 +1,94 @@
+{
+  "examples": [
+    {
+      "name": "Press de banca con barra",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "visibleSymbols": 2,
+      "animationControls": 0,
+      "headings": [
+        "Press de banca con barra"
+      ]
+    },
+    {
+      "name": "Press de banca con barra",
+      "width": 1366,
+      "viewport": 1366,
+      "documentWidth": 1366,
+      "visibleSymbols": 2,
+      "animationControls": 0,
+      "headings": [
+        "Press de banca con barra"
+      ]
+    },
+    {
+      "name": "Press de banca con mancuernas",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "visibleSymbols": 2,
+      "animationControls": 0,
+      "headings": [
+        "Press de banca con mancuernas"
+      ]
+    },
+    {
+      "name": "Press de banca con mancuernas",
+      "width": 1366,
+      "viewport": 1366,
+      "documentWidth": 1366,
+      "visibleSymbols": 2,
+      "animationControls": 0,
+      "headings": [
+        "Press de banca con mancuernas"
+      ]
+    },
+    {
+      "name": "Sentadilla con barra",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "visibleSymbols": 2,
+      "animationControls": 0,
+      "headings": [
+        "Sentadilla con barra"
+      ]
+    },
+    {
+      "name": "Sentadilla con barra",
+      "width": 1366,
+      "viewport": 1366,
+      "documentWidth": 1366,
+      "visibleSymbols": 2,
+      "animationControls": 0,
+      "headings": [
+        "Sentadilla con barra"
+      ]
+    },
+    {
+      "name": "Dominadas",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "visibleSymbols": 2,
+      "animationControls": 0,
+      "headings": [
+        "Dominadas"
+      ]
+    },
+    {
+      "name": "Dominadas",
+      "width": 1366,
+      "viewport": 1366,
+      "documentWidth": 1366,
+      "visibleSymbols": 2,
+      "animationControls": 0,
+      "headings": [
+        "Dominadas"
+      ]
+    }
+  ],
+  "errors": [],
+  "apiErrors": []
+}

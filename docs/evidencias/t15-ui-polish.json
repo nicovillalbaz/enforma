@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-24",
+  "status": "passed",
+  "scope": "only-observed-header-and-back-style-fixes",
+  "durationMs": 2971,
+  "browserInstances": 1,
+  "screenshots": 1,
+  "businessWrites": 0,
+  "checks": [
+    "student routes no longer match coach pupil list",
+    "back button without native border",
+    "duplicate mobile More link removed",
+    "coach monthly account link targets own account"
+  ]
+}

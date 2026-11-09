@@ -1,0 +1,192 @@
+{
+  "routes": [
+    {
+      "role": "coach",
+      "route": "/rutinas",
+      "width": 320,
+      "documentWidth": 320,
+      "viewportWidth": 320,
+      "headings": [
+        "Rutinas",
+        "Rutina ficticia · Aurora"
+      ],
+      "smallTargets": []
+    },
+    {
+      "role": "coach",
+      "route": "/rutinas",
+      "width": 390,
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "headings": [
+        "Rutinas",
+        "Rutina ficticia · Aurora"
+      ],
+      "smallTargets": []
+    },
+    {
+      "role": "coach",
+      "route": "/rutinas",
+      "width": 1366,
+      "documentWidth": 1366,
+      "viewportWidth": 1366,
+      "headings": [
+        "Rutinas",
+        "Rutina ficticia · Aurora"
+      ],
+      "smallTargets": [
+        "Inicio",
+        "Alumnos",
+        "Rutinas",
+        "Ejercicios",
+        "Dieta",
+        "Mi marca",
+        "Mi mensualidad",
+        "Mensualidades"
+      ]
+    },
+    {
+      "role": "coach",
+      "route": "/alimentacion",
+      "width": 320,
+      "documentWidth": 320,
+      "viewportWidth": 320,
+      "headings": [
+        "Alimentación",
+        "Sin plan para este día"
+      ],
+      "smallTargets": []
+    },
+    {
+      "role": "coach",
+      "route": "/alimentacion",
+      "width": 390,
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "headings": [
+        "Alimentación",
+        "Sin plan para este día"
+      ],
+      "smallTargets": []
+    },
+    {
+      "role": "coach",
+      "route": "/alimentacion",
+      "width": 1366,
+      "documentWidth": 1366,
+      "viewportWidth": 1366,
+      "headings": [
+        "Alimentación",
+        "Sin plan para este día"
+      ],
+      "smallTargets": [
+        "Inicio",
+        "Alumnos",
+        "Rutinas",
+        "Ejercicios",
+        "Dieta",
+        "Mi marca",
+        "Mi mensualidad",
+        "Mensualidades"
+      ]
+    },
+    {
+      "role": "student",
+      "route": "/alumno",
+      "width": 320,
+      "documentWidth": 320,
+      "viewportWidth": 320,
+      "headings": [
+        "Hola, Luna",
+        "Tu programa",
+        "Rutina ficticia · Aurora"
+      ],
+      "smallTargets": []
+    },
+    {
+      "role": "student",
+      "route": "/alumno",
+      "width": 390,
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "headings": [
+        "Hola, Luna",
+        "Tu programa",
+        "Rutina ficticia · Aurora"
+      ],
+      "smallTargets": []
+    },
+    {
+      "role": "student",
+      "route": "/alumno",
+      "width": 1366,
+      "documentWidth": 1366,
+      "viewportWidth": 1366,
+      "headings": [
+        "Hola, Luna",
+        "Tu programa",
+        "Rutina ficticia · Aurora"
+      ],
+      "smallTargets": [
+        "Hoy",
+        "Entrenar",
+        "Comidas",
+        "Historial",
+        "Mi perfil"
+      ]
+    },
+    {
+      "role": "admin",
+      "route": "/admin",
+      "width": 320,
+      "documentWidth": 320,
+      "viewportWidth": 320,
+      "headings": [
+        "Coaches y acceso",
+        "Coach pendiente · PRUEBA",
+        "Coach Brisa · PRUEBA",
+        "Coach Aurora · PRUEBA"
+      ],
+      "smallTargets": []
+    },
+    {
+      "role": "admin",
+      "route": "/admin",
+      "width": 390,
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "headings": [
+        "Coaches y acceso",
+        "Coach pendiente · PRUEBA",
+        "Coach Brisa · PRUEBA",
+        "Coach Aurora · PRUEBA"
+      ],
+      "smallTargets": []
+    },
+    {
+      "role": "admin",
+      "route": "/admin",
+      "width": 1366,
+      "documentWidth": 1366,
+      "viewportWidth": 1366,
+      "headings": [
+        "Coaches y acceso",
+        "Coach pendiente · PRUEBA",
+        "Coach Brisa · PRUEBA",
+        "Coach Aurora · PRUEBA"
+      ],
+      "smallTargets": [
+        "Inicio",
+        "Alumnos",
+        "Rutinas",
+        "Ejercicios",
+        "Dieta",
+        "Administración",
+        "Mi perfil",
+        "Ver mi app"
+      ]
+    }
+  ],
+  "errors": [],
+  "apiErrors": []
+}

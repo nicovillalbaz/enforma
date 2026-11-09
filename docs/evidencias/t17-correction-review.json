@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-26",
+  "checks": [
+    "finalized fact cannot be edited",
+    "discarded correction can be retried; original voided with history"
+  ],
+  "status": "passed"
+}

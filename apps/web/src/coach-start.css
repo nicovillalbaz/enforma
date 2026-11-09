@@ -1,0 +1,332 @@
+.coach-space {
+  min-width: 0;
+  max-width: 100%;
+}
+.coach-heading,
+.coach-section-title,
+.coach-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.coach-heading {
+  margin-bottom: 1.25rem;
+}
+.coach-heading h1,
+.information-header h1 {
+  font-size: clamp(1.8rem, 4vw, 2.35rem);
+  line-height: 1.2;
+  margin: 0.45rem 0;
+}
+.coach-space h2 {
+  font-size: 1.2rem;
+  margin: 0.4rem 0;
+}
+.coach-space p {
+  line-height: 1.7;
+}
+.coach-muted {
+  color: var(--muted);
+  line-height: 1.7;
+}
+.coach-space strong,
+.coach-space small,
+.coach-space p,
+.coach-space h1,
+.coach-space h2 {
+  overflow-wrap: anywhere;
+}
+.coach-space .ui-card {
+  min-width: 0;
+  padding: 1.1rem;
+}
+.coach-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  min-width: 44px;
+  max-width: 100%;
+  padding: 0.65rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-weight: 550;
+  text-decoration: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.coach-button.primary {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: var(--brand-text);
+}
+.coach-button:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+.coach-button:focus-visible,
+.more-link:focus-visible,
+.coach-quick-actions a:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+}
+.coach-welcome {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.5rem;
+  padding: 1.3rem;
+  border-radius: 20px;
+  border: 1px solid var(--line);
+  background: var(--surface-soft);
+  margin-bottom: 1rem;
+}
+.coach-welcome h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+.coach-progress {
+  display: grid;
+  gap: 0.5rem;
+  align-content: center;
+  min-width: 0;
+}
+.coach-progress > strong {
+  font-size: 2rem;
+}
+.coach-progress small {
+  color: var(--muted);
+  line-height: 1.6;
+  font-size: 0.78rem;
+}
+.coach-progress progress {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: 10px;
+  accent-color: var(--brand);
+}
+.coach-metrics {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.coach-metrics article {
+  display: grid;
+  gap: 0.6rem;
+}
+.coach-metrics strong {
+  font-size: 1.8rem;
+  font-family: var(--font-heading);
+}
+.coach-metrics small {
+  color: var(--muted);
+  line-height: 1.5;
+}
+.coach-checklist ol {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+.coach-checklist li {
+  display: grid;
+  grid-template-columns: 30px minmax(0, 1fr);
+  gap: 0.8rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--line);
+  align-items: start;
+}
+.coach-checklist li > .coach-button {
+  grid-column: 2;
+  justify-self: start;
+}
+.coach-step-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--surface-soft);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.is-done .coach-step-number {
+  background: var(--brand);
+  color: var(--brand-text);
+}
+.coach-checklist li p {
+  margin: 0.35rem 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.coach-checklist li small {
+  color: var(--brand-ink);
+  font-size: 0.78rem;
+}
+.coach-quick-actions {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.coach-quick-actions a {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  color: var(--text);
+  text-decoration: none;
+  min-height: 80px;
+}
+.coach-quick-actions a > span {
+  display: grid;
+  gap: 0.4rem;
+  min-width: 0;
+  flex: 1;
+}
+.coach-quick-actions small {
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+.more-groups {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+}
+.more-link {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  min-height: 64px;
+  padding: 0.9rem 0;
+  color: var(--text);
+  text-decoration: none;
+  border-top: 1px solid var(--line);
+}
+.more-link > span {
+  display: grid;
+  gap: 0.35rem;
+  min-width: 0;
+  flex: 1;
+}
+.more-link small {
+  line-height: 1.6;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.more-link > svg {
+  flex: none;
+  color: var(--brand-ink);
+}
+.more-link:hover strong {
+  color: var(--brand-ink);
+}
+.information-page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem calc(2rem + env(safe-area-inset-bottom, 0px));
+}
+.information-header {
+  max-width: 780px;
+  margin: 2rem 0;
+}
+.information-header > .brand-mark {
+  margin-bottom: 1rem;
+}
+.information-header > .eyebrow {
+  display: block;
+  margin-top: 1rem;
+}
+.information-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.6rem;
+}
+.information-card ol {
+  padding-left: 1.3rem;
+  line-height: 1.8;
+  margin: 0.3rem 0;
+}
+.information-card li + li {
+  margin-top: 0.7rem;
+}
+.information-card p {
+  margin: 0.25rem 0;
+}
+.information-card small {
+  display: block;
+}
+.creator-card {
+  background: var(--surface-soft);
+}
+.coach-actions {
+  justify-content: flex-start;
+}
+.inline-icon {
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+.independent-note {
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface-soft);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+.registration-signature {
+  margin-top: 1rem;
+  text-align: center;
+}
+.login-signature {
+  margin-top: 0.5rem;
+}
+.single-studio-label {
+  display: block;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.more-options-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--brand-ink);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+@media (min-width: 640px) {
+  .coach-metrics,
+  .coach-quick-actions {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .more-groups {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .coach-welcome {
+    padding: 1.5rem;
+  }
+  .information-page {
+    padding: 2rem 1.5rem 3rem;
+  }
+}
+@media (min-width: 1100px) {
+  .coach-welcome {
+    grid-template-columns: minmax(0, 1.5fr) minmax(0, 0.8fr);
+  }
+  .coach-checklist li {
+    grid-template-columns: 30px minmax(0, 1fr) auto;
+  }
+  .coach-checklist li > .coach-button {
+    grid-column: 3;
+    align-self: center;
+  }
+}

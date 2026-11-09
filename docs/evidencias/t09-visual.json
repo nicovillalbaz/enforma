@@ -1,0 +1,27 @@
+{
+  "scope": "synthetic-local-only",
+  "version": "0.9.0",
+  "browserInstances": 2,
+  "pdfGenerations": 1,
+  "viewportWidths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "errors": [],
+  "professionalPhotoRead": 200,
+  "reusedBuilderEvidence": true,
+  "corrections": [
+    "fresh CSRF for script API mutations after browser UI",
+    "preserve null nutrients through API validation"
+  ],
+  "initialRun": "t09-visual-inicial.json",
+  "pdfBytes": 254729,
+  "studentPdfRead": 200,
+  "revokedProfessionalPhotoRead": 404,
+  "selfRetainedPhotoRead": 200,
+  "status": "passed",
+  "continuationDurationSeconds": 12,
+  "checkedAt": "2026-10-22T11:41:18.923Z"
+}

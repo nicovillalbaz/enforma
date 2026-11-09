@@ -1,0 +1,335 @@
+.workout-page,
+.workout-history {
+  max-width: 1280px;
+  margin-inline: auto;
+  min-width: 0;
+}
+.workout-heading {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.workout-heading h1 {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  line-height: 1.12;
+  margin: 0.6rem 0;
+}
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 44px;
+  color: var(--brand-ink);
+  font-weight: 700;
+}
+.workout-sync {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+}
+.workout-sync > span {
+  flex: 1;
+  min-width: 160px;
+}
+.workout-layout {
+  display: grid;
+  gap: 1rem;
+  min-width: 0;
+}
+.workout-layout .ui-card,
+.workout-history-card {
+  padding: clamp(1rem, 3vw, 1.75rem);
+  min-width: 0;
+}
+.workout-outline h2,
+.workout-current h2 {
+  font-size: clamp(1.4rem, 3vw, 1.85rem);
+  margin: 0.65rem 0;
+  overflow-wrap: anywhere;
+}
+.workout-outline progress {
+  width: 100%;
+  height: 8px;
+  accent-color: var(--brand);
+  margin-bottom: 1rem;
+}
+.workout-outline nav {
+  display: flex;
+  gap: 0.35rem;
+  max-height: 100px;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+.workout-outline nav button {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 0.65rem;
+  min-height: 56px;
+  padding: 0.65rem;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.workout-outline nav button {
+  min-width: 160px;
+  flex: 0 0 180px;
+}
+.workout-outline nav button.active {
+  border-color: var(--brand);
+  background: color-mix(in srgb, var(--brand) 7%, var(--surface));
+}
+.workout-outline nav button > span:first-child {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+.workout-outline nav button > span:nth-child(2) {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-weight: 650;
+  font-size: 0.875rem;
+}
+.workout-outline nav small {
+  display: block;
+  font-weight: 400;
+  color: var(--muted);
+  margin-top: 0.25rem;
+}
+.workout-outline nav .recorded > svg {
+  color: var(--brand-ink);
+  flex-shrink: 0;
+}
+.workout-main {
+  display: grid;
+  gap: 1rem;
+  min-width: 0;
+  align-content: start;
+}
+.workout-current header {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.workout-target {
+  display: grid;
+  gap: 0.4rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--brand) 8%, var(--surface));
+  margin: 1rem 0;
+}
+.workout-target > span {
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  font-weight: 750;
+  color: var(--muted);
+}
+.workout-target strong {
+  font-size: 1.35rem;
+}
+.workout-target small {
+  color: var(--muted);
+}
+.workout-record-form {
+  display: grid;
+  gap: 1rem;
+}
+.workout-record-form h3 {
+  margin: 0.5rem 0 0;
+}
+.workout-numbers {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+.workout-numbers label:last-child {
+  grid-column: 1/-1;
+}
+.workout-page input,
+.workout-page textarea {
+  font-size: 16px;
+  min-width: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.workout-page input {
+  min-height: 52px;
+}
+.workout-save-bar,
+.workout-actions {
+  display: flex;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.workout-save-bar {
+  position: sticky;
+  bottom: calc(76px + env(safe-area-inset-bottom));
+  background: var(--surface);
+  padding: 0.75rem 0;
+  z-index: 2;
+}
+.workout-save-bar > .ui-button:first-child {
+  flex: 1;
+}
+.workout-rest {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.workout-rest > div {
+  flex: 1;
+  min-width: 130px;
+}
+.workout-rest strong {
+  display: block;
+  font-size: 1.8rem;
+  font-variant-numeric: tabular-nums;
+  margin-top: 0.3rem;
+}
+.workout-rest p {
+  margin: 0.25rem 0;
+}
+.workout-finish {
+  display: grid;
+  gap: 0.85rem;
+}
+.workout-finish h2 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+.workout-finish p {
+  margin: 0;
+}
+.workout-conflict {
+  border: 2px solid var(--brand);
+  border-radius: 16px;
+  background: var(--surface);
+  padding: 1rem;
+  margin: 1rem 0;
+  overflow-wrap: anywhere;
+}
+.workout-conflict h2 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+.workout-conflict-values {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  max-height: 200px;
+  overflow: auto;
+  font-size: 0.8rem;
+}
+.workout-saved-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+}
+.workout-session-link {
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  display: grid;
+  gap: 0.6rem;
+  padding: 1.2rem;
+  color: inherit;
+}
+.workout-session-link span {
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+.workout-other {
+  margin-top: 2rem;
+}
+.workout-history-list {
+  display: grid;
+  gap: 1rem;
+}
+.workout-history-card h2 {
+  margin: 0.6rem 0;
+}
+.workout-summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  border-block: 1px solid var(--line);
+  margin: 1rem 0;
+}
+.workout-results {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+.workout-results li {
+  display: grid;
+  gap: 0.4rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--line);
+  overflow-wrap: anywhere;
+}
+.workout-results span,
+.workout-results em {
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+.workout-history details > summary {
+  min-height: 44px;
+  cursor: pointer;
+  font-weight: 650;
+  display: flex;
+  align-items: center;
+}
+.workout-pending {
+  color: var(--brand-ink);
+  font-weight: 650;
+  font-size: 0.875rem;
+}
+@media (min-width: 900px) {
+  .workout-layout {
+    grid-template-columns: minmax(220px, 300px) minmax(0, 1fr);
+    align-items: start;
+  }
+  .workout-outline {
+    position: sticky;
+    top: 90px;
+  }
+  .workout-outline nav {
+    max-height: 480px;
+    display: grid;
+  }
+  .workout-outline nav button {
+    min-width: 0;
+  }
+  .workout-numbers {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .workout-numbers label:last-child {
+    grid-column: auto;
+  }
+  .workout-save-bar {
+    position: static;
+  }
+  .workout-history-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+  }
+}

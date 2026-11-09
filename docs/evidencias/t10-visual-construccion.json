@@ -1,0 +1,23 @@
+{
+  "version": "0.10.0",
+  "scope": "synthetic-local-only",
+  "browserInstances": 2,
+  "pdfGenerations": 0,
+  "viewportWidths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "errors": [],
+  "checks": [
+    "two-context chat and WebSocket refresh",
+    "habit UI with optional target",
+    "template save, publish and schedule through UI"
+  ],
+  "continuedFrom": "t10-visual-inicial.json",
+  "status": "failed",
+  "failedStage": "mobile-response",
+  "failure": "locator.fill: Error: strict mode violation: locator('.followup-checkin').filter({ hasText: 'Tu semana · QA T10 60f4' }).getByLabel('¿Cómo te sentiste esta semana? (opcional)', { exact: true }) resolved to 4 elements:\n    1) <textarea rows=\"3\" value=\"\" maxlength=\"2000\" id=\"f75008a4-635c-467c-9dc9-69d1487c9fc2bc76a48a-a7f0-43d2-810f-39cba24ae694\"></textarea> aka getByRole('textbox', { name: '¿Cómo te sentiste esta semana' }).first()\n    2) <textarea rows=\"3\" value=\"\" maxlength=\"2000\" id=\"acfa5f56-b705-4d7f-8562-3365122a2e0fbc76a48a-a7f0-43d2-810f-39cba24ae694\"></textarea> aka getByRole('textbox', { name: '¿Cómo te sentiste esta semana' }).nth(1)\n    3) <textarea rows=\"3\" value=\"\" maxlength=\"2000\" id=\"7ed287da-9a4d-45bf-9272-cdf84a7cce83bc76a48a-a7f0-43d2-810f-39cba24ae694\"></textarea> aka getByRole('textbox', { name: '¿Cómo te sentiste esta semana' }).nth(2)\n    4) <textarea rows=\"3\" value=\"\" maxlength=\"2000\" id=\"cd7cf280-f8ad-4cfd-8978-bbf09694fd5bbc76a48a-a7f0-43d2-810f-39cba24ae694\"></textarea> aka locator('form').filter({ hasText: '¿Cómo te sentiste esta semana? (opcional) Enviar check-in' }).getByLabel('¿Cómo te sentiste esta semana')\n\nCall log:\n\u001b[2m  - waiting for locator('.followup-checkin').filter({ hasText: 'Tu semana · QA T10 60f4' }).getByLabel('¿Cómo te sentiste esta semana? (opcional)', { exact: true })\u001b[22m\n",
+  "durationMs": 6676
+}

@@ -1,0 +1,1250 @@
+[
+  {
+    "slug": "bench-press",
+    "frame": 1,
+    "effectiveInk": 2.52,
+    "height": 203,
+    "width": 178,
+    "area": 5548
+  },
+  {
+    "slug": "bench-press",
+    "frame": 2,
+    "effectiveInk": 3.37,
+    "height": 197,
+    "width": 202,
+    "area": 7254
+  },
+  {
+    "slug": "bench-press",
+    "frame": 3,
+    "effectiveInk": 2.53,
+    "height": 181,
+    "width": 197,
+    "area": 5942
+  },
+  {
+    "slug": "dumbbell-bench-press",
+    "frame": 1,
+    "effectiveInk": 2.53,
+    "height": 205,
+    "width": 138,
+    "area": 4689
+  },
+  {
+    "slug": "dumbbell-bench-press",
+    "frame": 2,
+    "effectiveInk": 2.84,
+    "height": 191,
+    "width": 169,
+    "area": 5750
+  },
+  {
+    "slug": "dumbbell-bench-press",
+    "frame": 3,
+    "effectiveInk": 2.52,
+    "height": 182,
+    "width": 170,
+    "area": 5257
+  },
+  {
+    "slug": "incline-bench-press",
+    "frame": 1,
+    "effectiveInk": 2.53,
+    "height": 206,
+    "width": 181,
+    "area": 6106
+  },
+  {
+    "slug": "incline-bench-press",
+    "frame": 2,
+    "effectiveInk": 3.96,
+    "height": 207,
+    "width": 198,
+    "area": 9440
+  },
+  {
+    "slug": "incline-bench-press",
+    "frame": 3,
+    "effectiveInk": 2.55,
+    "height": 200,
+    "width": 195,
+    "area": 6643
+  },
+  {
+    "slug": "incline-dumbbell-press",
+    "frame": 1,
+    "effectiveInk": 2.54,
+    "height": 205,
+    "width": 127,
+    "area": 4880
+  },
+  {
+    "slug": "incline-dumbbell-press",
+    "frame": 2,
+    "effectiveInk": 3.52,
+    "height": 195,
+    "width": 160,
+    "area": 7221
+  },
+  {
+    "slug": "incline-dumbbell-press",
+    "frame": 3,
+    "effectiveInk": 2.53,
+    "height": 192,
+    "width": 159,
+    "area": 5659
+  },
+  {
+    "slug": "machine-chest-press",
+    "frame": 1,
+    "effectiveInk": 2.35,
+    "height": 195,
+    "width": 142,
+    "area": 5258
+  },
+  {
+    "slug": "machine-chest-press",
+    "frame": 2,
+    "effectiveInk": 2.47,
+    "height": 216,
+    "width": 156,
+    "area": 5970
+  },
+  {
+    "slug": "machine-chest-press",
+    "frame": 3,
+    "effectiveInk": 2.28,
+    "height": 216,
+    "width": 185,
+    "area": 5733
+  },
+  {
+    "slug": "dumbbell-fly",
+    "frame": 1,
+    "effectiveInk": 2.37,
+    "height": 204,
+    "width": 123,
+    "area": 4410
+  },
+  {
+    "slug": "dumbbell-fly",
+    "frame": 2,
+    "effectiveInk": 2.75,
+    "height": 200,
+    "width": 192,
+    "area": 5924
+  },
+  {
+    "slug": "dumbbell-fly",
+    "frame": 3,
+    "effectiveInk": 2.33,
+    "height": 182,
+    "width": 184,
+    "area": 4801
+  },
+  {
+    "slug": "cable-fly",
+    "frame": 1,
+    "effectiveInk": 3.15,
+    "height": 188,
+    "width": 162,
+    "area": 4368
+  },
+  {
+    "slug": "cable-fly",
+    "frame": 2,
+    "effectiveInk": 4.29,
+    "height": 210,
+    "width": 188,
+    "area": 5958
+  },
+  {
+    "slug": "cable-fly",
+    "frame": 3,
+    "effectiveInk": 3.07,
+    "height": 215,
+    "width": 182,
+    "area": 4482
+  },
+  {
+    "slug": "push-up",
+    "frame": 1,
+    "effectiveInk": 3.44,
+    "height": 113,
+    "width": 193,
+    "area": 4474
+  },
+  {
+    "slug": "push-up",
+    "frame": 2,
+    "effectiveInk": 5,
+    "height": 101,
+    "width": 215,
+    "area": 6176
+  },
+  {
+    "slug": "push-up",
+    "frame": 3,
+    "effectiveInk": 3.27,
+    "height": 116,
+    "width": 199,
+    "area": 4371
+  },
+  {
+    "slug": "dip",
+    "frame": 1,
+    "effectiveInk": 2.73,
+    "height": 174,
+    "width": 94,
+    "area": 4134
+  },
+  {
+    "slug": "dip",
+    "frame": 2,
+    "effectiveInk": 3.5,
+    "height": 175,
+    "width": 105,
+    "area": 4894
+  },
+  {
+    "slug": "dip",
+    "frame": 3,
+    "effectiveInk": 2.77,
+    "height": 166,
+    "width": 104,
+    "area": 4098
+  },
+  {
+    "slug": "barbell-row",
+    "frame": 1,
+    "effectiveInk": 3.09,
+    "height": 187,
+    "width": 180,
+    "area": 6012
+  },
+  {
+    "slug": "barbell-row",
+    "frame": 2,
+    "effectiveInk": 3.28,
+    "height": 207,
+    "width": 203,
+    "area": 7641
+  },
+  {
+    "slug": "barbell-row",
+    "frame": 3,
+    "effectiveInk": 3.09,
+    "height": 206,
+    "width": 196,
+    "area": 6939
+  },
+  {
+    "slug": "one-arm-dumbbell-row",
+    "frame": 1,
+    "effectiveInk": 2.63,
+    "height": 214,
+    "width": 205,
+    "area": 7645
+  },
+  {
+    "slug": "one-arm-dumbbell-row",
+    "frame": 2,
+    "effectiveInk": 2.59,
+    "height": 214,
+    "width": 206,
+    "area": 7641
+  },
+  {
+    "slug": "one-arm-dumbbell-row",
+    "frame": 3,
+    "effectiveInk": 2.59,
+    "height": 214,
+    "width": 206,
+    "area": 7746
+  },
+  {
+    "slug": "machine-row",
+    "frame": 1,
+    "effectiveInk": 2.15,
+    "height": 214,
+    "width": 181,
+    "area": 8808
+  },
+  {
+    "slug": "machine-row",
+    "frame": 2,
+    "effectiveInk": 2.7,
+    "height": 214,
+    "width": 180,
+    "area": 11039
+  },
+  {
+    "slug": "machine-row",
+    "frame": 3,
+    "effectiveInk": 2.39,
+    "height": 214,
+    "width": 161,
+    "area": 9603
+  },
+  {
+    "slug": "seated-row",
+    "frame": 1,
+    "effectiveInk": 2.66,
+    "height": 137,
+    "width": 204,
+    "area": 4337
+  },
+  {
+    "slug": "seated-row",
+    "frame": 2,
+    "effectiveInk": 2.7,
+    "height": 152,
+    "width": 216,
+    "area": 4758
+  },
+  {
+    "slug": "seated-row",
+    "frame": 3,
+    "effectiveInk": 2.63,
+    "height": 152,
+    "width": 215,
+    "area": 5381
+  },
+  {
+    "slug": "lat-pulldown",
+    "frame": 1,
+    "effectiveInk": 2.59,
+    "height": 195,
+    "width": 81,
+    "area": 3856
+  },
+  {
+    "slug": "lat-pulldown",
+    "frame": 2,
+    "effectiveInk": 4.5,
+    "height": 215,
+    "width": 100,
+    "area": 6302
+  },
+  {
+    "slug": "lat-pulldown",
+    "frame": 3,
+    "effectiveInk": 2.57,
+    "height": 215,
+    "width": 81,
+    "area": 4655
+  },
+  {
+    "slug": "pull-up",
+    "frame": 1,
+    "effectiveInk": 2.65,
+    "height": 150,
+    "width": 125,
+    "area": 3109
+  },
+  {
+    "slug": "pull-up",
+    "frame": 2,
+    "effectiveInk": 3.53,
+    "height": 170,
+    "width": 138,
+    "area": 4514
+  },
+  {
+    "slug": "pull-up",
+    "frame": 3,
+    "effectiveInk": 2.65,
+    "height": 211,
+    "width": 138,
+    "area": 3913
+  },
+  {
+    "slug": "assisted-pull-up",
+    "frame": 1,
+    "effectiveInk": 1.68,
+    "height": 215,
+    "width": 108,
+    "area": 4952
+  },
+  {
+    "slug": "assisted-pull-up",
+    "frame": 2,
+    "effectiveInk": 2.22,
+    "height": 212,
+    "width": 110,
+    "area": 6769
+  },
+  {
+    "slug": "assisted-pull-up",
+    "frame": 3,
+    "effectiveInk": 2.16,
+    "height": 213,
+    "width": 109,
+    "area": 6546
+  },
+  {
+    "slug": "deadlift",
+    "frame": 1,
+    "effectiveInk": 3.01,
+    "height": 199,
+    "width": 134,
+    "area": 4310
+  },
+  {
+    "slug": "deadlift",
+    "frame": 2,
+    "effectiveInk": 4.63,
+    "height": 177,
+    "width": 164,
+    "area": 6974
+  },
+  {
+    "slug": "deadlift",
+    "frame": 3,
+    "effectiveInk": 3.01,
+    "height": 153,
+    "width": 146,
+    "area": 4883
+  },
+  {
+    "slug": "romanian-deadlift",
+    "frame": 1,
+    "effectiveInk": 3.11,
+    "height": 199,
+    "width": 138,
+    "area": 4475
+  },
+  {
+    "slug": "romanian-deadlift",
+    "frame": 2,
+    "effectiveInk": 4.52,
+    "height": 188,
+    "width": 157,
+    "area": 6603
+  },
+  {
+    "slug": "romanian-deadlift",
+    "frame": 3,
+    "effectiveInk": 3.01,
+    "height": 154,
+    "width": 148,
+    "area": 4982
+  },
+  {
+    "slug": "sumo-deadlift",
+    "frame": 1,
+    "effectiveInk": 1.61,
+    "height": 161,
+    "width": 212,
+    "area": 3702
+  },
+  {
+    "slug": "sumo-deadlift",
+    "frame": 2,
+    "effectiveInk": 3.41,
+    "height": 181,
+    "width": 216,
+    "area": 7902
+  },
+  {
+    "slug": "sumo-deadlift",
+    "frame": 3,
+    "effectiveInk": 2.26,
+    "height": 196,
+    "width": 216,
+    "area": 6087
+  },
+  {
+    "slug": "squat",
+    "frame": 1,
+    "effectiveInk": 2.5,
+    "height": 202,
+    "width": 171,
+    "area": 4662
+  },
+  {
+    "slug": "squat",
+    "frame": 2,
+    "effectiveInk": 2.84,
+    "height": 183,
+    "width": 194,
+    "area": 5737
+  },
+  {
+    "slug": "squat",
+    "frame": 3,
+    "effectiveInk": 2.43,
+    "height": 163,
+    "width": 187,
+    "area": 4714
+  },
+  {
+    "slug": "goblet-squat",
+    "frame": 1,
+    "effectiveInk": 1.61,
+    "height": 196,
+    "width": 116,
+    "area": 2777
+  },
+  {
+    "slug": "goblet-squat",
+    "frame": 2,
+    "effectiveInk": 1.7,
+    "height": 190,
+    "width": 104,
+    "area": 2752
+  },
+  {
+    "slug": "goblet-squat",
+    "frame": 3,
+    "effectiveInk": 1.72,
+    "height": 215,
+    "width": 103,
+    "area": 2794
+  },
+  {
+    "slug": "front-squat",
+    "frame": 1,
+    "effectiveInk": 2.37,
+    "height": 203,
+    "width": 159,
+    "area": 4369
+  },
+  {
+    "slug": "front-squat",
+    "frame": 2,
+    "effectiveInk": 2.63,
+    "height": 196,
+    "width": 177,
+    "area": 5090
+  },
+  {
+    "slug": "front-squat",
+    "frame": 3,
+    "effectiveInk": 2.32,
+    "height": 170,
+    "width": 173,
+    "area": 4322
+  },
+  {
+    "slug": "bulgarian-split-squat",
+    "frame": 1,
+    "effectiveInk": 1.78,
+    "height": 188,
+    "width": 178,
+    "area": 3695
+  },
+  {
+    "slug": "bulgarian-split-squat",
+    "frame": 2,
+    "effectiveInk": 1.8,
+    "height": 202,
+    "width": 184,
+    "area": 3925
+  },
+  {
+    "slug": "bulgarian-split-squat",
+    "frame": 3,
+    "effectiveInk": 2.14,
+    "height": 216,
+    "width": 174,
+    "area": 4574
+  },
+  {
+    "slug": "walking-lunge",
+    "frame": 1,
+    "effectiveInk": 2.37,
+    "height": 186,
+    "width": 130,
+    "area": 4665
+  },
+  {
+    "slug": "walking-lunge",
+    "frame": 2,
+    "effectiveInk": 2.61,
+    "height": 195,
+    "width": 133,
+    "area": 4807
+  },
+  {
+    "slug": "walking-lunge",
+    "frame": 3,
+    "effectiveInk": 2.45,
+    "height": 216,
+    "width": 109,
+    "area": 5030
+  },
+  {
+    "slug": "reverse-lunge",
+    "frame": 1,
+    "effectiveInk": 2.69,
+    "height": 152,
+    "width": 107,
+    "area": 4102
+  },
+  {
+    "slug": "reverse-lunge",
+    "frame": 2,
+    "effectiveInk": 3.56,
+    "height": 178,
+    "width": 116,
+    "area": 5604
+  },
+  {
+    "slug": "reverse-lunge",
+    "frame": 3,
+    "effectiveInk": 2.75,
+    "height": 215,
+    "width": 97,
+    "area": 4885
+  },
+  {
+    "slug": "step-up",
+    "frame": 1,
+    "effectiveInk": 3.5,
+    "height": 182,
+    "width": 113,
+    "area": 5074
+  },
+  {
+    "slug": "step-up",
+    "frame": 2,
+    "effectiveInk": 4.07,
+    "height": 215,
+    "width": 124,
+    "area": 6459
+  },
+  {
+    "slug": "step-up",
+    "frame": 3,
+    "effectiveInk": 3.64,
+    "height": 202,
+    "width": 125,
+    "area": 5833
+  },
+  {
+    "slug": "leg-press",
+    "frame": 1,
+    "effectiveInk": 1.81,
+    "height": 126,
+    "width": 187,
+    "area": 3925
+  },
+  {
+    "slug": "leg-press",
+    "frame": 2,
+    "effectiveInk": 2.05,
+    "height": 127,
+    "width": 216,
+    "area": 4559
+  },
+  {
+    "slug": "leg-press",
+    "frame": 3,
+    "effectiveInk": 1.9,
+    "height": 117,
+    "width": 201,
+    "area": 4119
+  },
+  {
+    "slug": "leg-extension",
+    "frame": 1,
+    "effectiveInk": 2.2,
+    "height": 194,
+    "width": 121,
+    "area": 4325
+  },
+  {
+    "slug": "leg-extension",
+    "frame": 2,
+    "effectiveInk": 2.3,
+    "height": 215,
+    "width": 145,
+    "area": 5114
+  },
+  {
+    "slug": "leg-extension",
+    "frame": 3,
+    "effectiveInk": 2.35,
+    "height": 215,
+    "width": 126,
+    "area": 4670
+  },
+  {
+    "slug": "lying-leg-curl",
+    "frame": 1,
+    "effectiveInk": 1.83,
+    "height": 100,
+    "width": 152,
+    "area": 2890
+  },
+  {
+    "slug": "lying-leg-curl",
+    "frame": 2,
+    "effectiveInk": 1.84,
+    "height": 111,
+    "width": 182,
+    "area": 3518
+  },
+  {
+    "slug": "lying-leg-curl",
+    "frame": 3,
+    "effectiveInk": 1.86,
+    "height": 122,
+    "width": 216,
+    "area": 3484
+  },
+  {
+    "slug": "seated-leg-curl",
+    "frame": 1,
+    "effectiveInk": 2.16,
+    "height": 194,
+    "width": 114,
+    "area": 4151
+  },
+  {
+    "slug": "seated-leg-curl",
+    "frame": 2,
+    "effectiveInk": 2.38,
+    "height": 215,
+    "width": 140,
+    "area": 5474
+  },
+  {
+    "slug": "seated-leg-curl",
+    "frame": 3,
+    "effectiveInk": 2.19,
+    "height": 214,
+    "width": 141,
+    "area": 4869
+  },
+  {
+    "slug": "standing-calf-raise",
+    "frame": 1,
+    "effectiveInk": 2.14,
+    "height": 194,
+    "width": 106,
+    "area": 3649
+  },
+  {
+    "slug": "standing-calf-raise",
+    "frame": 2,
+    "effectiveInk": 2.67,
+    "height": 216,
+    "width": 117,
+    "area": 4818
+  },
+  {
+    "slug": "standing-calf-raise",
+    "frame": 3,
+    "effectiveInk": 2.15,
+    "height": 213,
+    "width": 124,
+    "area": 4159
+  },
+  {
+    "slug": "seated-calf-raise",
+    "frame": 1,
+    "effectiveInk": 2.72,
+    "height": 195,
+    "width": 135,
+    "area": 5278
+  },
+  {
+    "slug": "seated-calf-raise",
+    "frame": 2,
+    "effectiveInk": 2.77,
+    "height": 216,
+    "width": 149,
+    "area": 5998
+  },
+  {
+    "slug": "seated-calf-raise",
+    "frame": 3,
+    "effectiveInk": 2.76,
+    "height": 215,
+    "width": 149,
+    "area": 5992
+  },
+  {
+    "slug": "hip-thrust",
+    "frame": 1,
+    "effectiveInk": 1.72,
+    "height": 156,
+    "width": 206,
+    "area": 4021
+  },
+  {
+    "slug": "hip-thrust",
+    "frame": 2,
+    "effectiveInk": 2.3,
+    "height": 156,
+    "width": 216,
+    "area": 6077
+  },
+  {
+    "slug": "hip-thrust",
+    "frame": 3,
+    "effectiveInk": 1.69,
+    "height": 142,
+    "width": 212,
+    "area": 3871
+  },
+  {
+    "slug": "glute-bridge",
+    "frame": 1,
+    "effectiveInk": 2.23,
+    "height": 93,
+    "width": 194,
+    "area": 2808
+  },
+  {
+    "slug": "glute-bridge",
+    "frame": 2,
+    "effectiveInk": 2.12,
+    "height": 103,
+    "width": 214,
+    "area": 2894
+  },
+  {
+    "slug": "glute-bridge",
+    "frame": 3,
+    "effectiveInk": 2.14,
+    "height": 100,
+    "width": 215,
+    "area": 3024
+  },
+  {
+    "slug": "overhead-press",
+    "frame": 1,
+    "effectiveInk": 1.71,
+    "height": 216,
+    "width": 140,
+    "area": 3220
+  },
+  {
+    "slug": "overhead-press",
+    "frame": 2,
+    "effectiveInk": 1.74,
+    "height": 203,
+    "width": 160,
+    "area": 3538
+  },
+  {
+    "slug": "overhead-press",
+    "frame": 3,
+    "effectiveInk": 1.99,
+    "height": 190,
+    "width": 159,
+    "area": 3869
+  },
+  {
+    "slug": "standing-dumbbell-press",
+    "frame": 1,
+    "effectiveInk": 1.75,
+    "height": 216,
+    "width": 83,
+    "area": 2983
+  },
+  {
+    "slug": "standing-dumbbell-press",
+    "frame": 2,
+    "effectiveInk": 2.53,
+    "height": 191,
+    "width": 105,
+    "area": 4626
+  },
+  {
+    "slug": "standing-dumbbell-press",
+    "frame": 3,
+    "effectiveInk": 1.9,
+    "height": 184,
+    "width": 108,
+    "area": 3226
+  },
+  {
+    "slug": "machine-shoulder-press",
+    "frame": 1,
+    "effectiveInk": 1.67,
+    "height": 213,
+    "width": 163,
+    "area": 6478
+  },
+  {
+    "slug": "machine-shoulder-press",
+    "frame": 2,
+    "effectiveInk": 2.82,
+    "height": 208,
+    "width": 174,
+    "area": 11412
+  },
+  {
+    "slug": "machine-shoulder-press",
+    "frame": 3,
+    "effectiveInk": 2.26,
+    "height": 197,
+    "width": 168,
+    "area": 9376
+  },
+  {
+    "slug": "lateral-raise",
+    "frame": 1,
+    "effectiveInk": 3.37,
+    "height": 195,
+    "width": 172,
+    "area": 5347
+  },
+  {
+    "slug": "lateral-raise",
+    "frame": 2,
+    "effectiveInk": 4.81,
+    "height": 215,
+    "width": 194,
+    "area": 7618
+  },
+  {
+    "slug": "lateral-raise",
+    "frame": 3,
+    "effectiveInk": 3.39,
+    "height": 214,
+    "width": 97,
+    "area": 5668
+  },
+  {
+    "slug": "cable-lateral-raise",
+    "frame": 1,
+    "effectiveInk": 1.66,
+    "height": 213,
+    "width": 208,
+    "area": 4958
+  },
+  {
+    "slug": "cable-lateral-raise",
+    "frame": 2,
+    "effectiveInk": 3.03,
+    "height": 216,
+    "width": 209,
+    "area": 8939
+  },
+  {
+    "slug": "cable-lateral-raise",
+    "frame": 3,
+    "effectiveInk": 1.97,
+    "height": 215,
+    "width": 182,
+    "area": 6331
+  },
+  {
+    "slug": "bicep-curl",
+    "frame": 1,
+    "effectiveInk": 2.08,
+    "height": 194,
+    "width": 79,
+    "area": 3103
+  },
+  {
+    "slug": "bicep-curl",
+    "frame": 2,
+    "effectiveInk": 2.2,
+    "height": 216,
+    "width": 101,
+    "area": 3717
+  },
+  {
+    "slug": "bicep-curl",
+    "frame": 3,
+    "effectiveInk": 2.08,
+    "height": 215,
+    "width": 96,
+    "area": 3876
+  },
+  {
+    "slug": "ez-bar-curl",
+    "frame": 1,
+    "effectiveInk": 2.91,
+    "height": 195,
+    "width": 154,
+    "area": 5284
+  },
+  {
+    "slug": "ez-bar-curl",
+    "frame": 2,
+    "effectiveInk": 4.75,
+    "height": 216,
+    "width": 165,
+    "area": 7592
+  },
+  {
+    "slug": "ez-bar-curl",
+    "frame": 3,
+    "effectiveInk": 2.82,
+    "height": 214,
+    "width": 169,
+    "area": 6058
+  },
+  {
+    "slug": "hammer-curl",
+    "frame": 1,
+    "effectiveInk": 1.98,
+    "height": 195,
+    "width": 71,
+    "area": 2881
+  },
+  {
+    "slug": "hammer-curl",
+    "frame": 2,
+    "effectiveInk": 2.14,
+    "height": 215,
+    "width": 93,
+    "area": 3730
+  },
+  {
+    "slug": "hammer-curl",
+    "frame": 3,
+    "effectiveInk": 2.02,
+    "height": 214,
+    "width": 96,
+    "area": 3767
+  },
+  {
+    "slug": "tricep-pushdown",
+    "frame": 1,
+    "effectiveInk": 2.65,
+    "height": 194,
+    "width": 65,
+    "area": 3233
+  },
+  {
+    "slug": "tricep-pushdown",
+    "frame": 2,
+    "effectiveInk": 3.2,
+    "height": 215,
+    "width": 72,
+    "area": 3851
+  },
+  {
+    "slug": "tricep-pushdown",
+    "frame": 3,
+    "effectiveInk": 2.56,
+    "height": 216,
+    "width": 71,
+    "area": 3459
+  },
+  {
+    "slug": "dumbbell-overhead-tricep-extension",
+    "frame": 1,
+    "effectiveInk": 3.24,
+    "height": 205,
+    "width": 113,
+    "area": 5233
+  },
+  {
+    "slug": "dumbbell-overhead-tricep-extension",
+    "frame": 2,
+    "effectiveInk": 3.38,
+    "height": 212,
+    "width": 125,
+    "area": 5710
+  },
+  {
+    "slug": "dumbbell-overhead-tricep-extension",
+    "frame": 3,
+    "effectiveInk": 3.14,
+    "height": 197,
+    "width": 125,
+    "area": 5186
+  },
+  {
+    "slug": "bench-dip",
+    "frame": 1,
+    "effectiveInk": 2.69,
+    "height": 143,
+    "width": 191,
+    "area": 4145
+  },
+  {
+    "slug": "bench-dip",
+    "frame": 2,
+    "effectiveInk": 2.9,
+    "height": 158,
+    "width": 215,
+    "area": 4940
+  },
+  {
+    "slug": "bench-dip",
+    "frame": 3,
+    "effectiveInk": 2.71,
+    "height": 127,
+    "width": 210,
+    "area": 4314
+  },
+  {
+    "slug": "plank",
+    "frame": 1,
+    "effectiveInk": 1.81,
+    "height": 89,
+    "width": 213,
+    "area": 2567
+  },
+  {
+    "slug": "plank",
+    "frame": 2,
+    "effectiveInk": 1.82,
+    "height": 88,
+    "width": 215,
+    "area": 2617
+  },
+  {
+    "slug": "plank",
+    "frame": 3,
+    "effectiveInk": 1.82,
+    "height": 89,
+    "width": 214,
+    "area": 2927
+  },
+  {
+    "slug": "crunch",
+    "frame": 1,
+    "effectiveInk": 2.63,
+    "height": 87,
+    "width": 184,
+    "area": 3554
+  },
+  {
+    "slug": "crunch",
+    "frame": 2,
+    "effectiveInk": 2.7,
+    "height": 95,
+    "width": 196,
+    "area": 3972
+  },
+  {
+    "slug": "crunch",
+    "frame": 3,
+    "effectiveInk": 2.66,
+    "height": 96,
+    "width": 216,
+    "area": 3983
+  },
+  {
+    "slug": "treadmill-incline-walk",
+    "frame": 1,
+    "effectiveInk": 2.33,
+    "height": 211,
+    "width": 193,
+    "area": 6445
+  },
+  {
+    "slug": "treadmill-incline-walk",
+    "frame": 2,
+    "effectiveInk": 2.13,
+    "height": 213,
+    "width": 193,
+    "area": 6078
+  },
+  {
+    "slug": "treadmill-incline-walk",
+    "frame": 3,
+    "effectiveInk": 2.2,
+    "height": 210,
+    "width": 192,
+    "area": 6242
+  },
+  {
+    "slug": "assault-bike",
+    "frame": 1,
+    "effectiveInk": 1.76,
+    "height": 211,
+    "width": 124,
+    "area": 6562
+  },
+  {
+    "slug": "assault-bike",
+    "frame": 2,
+    "effectiveInk": 2.17,
+    "height": 215,
+    "width": 131,
+    "area": 8547
+  },
+  {
+    "slug": "assault-bike",
+    "frame": 3,
+    "effectiveInk": 2.92,
+    "height": 213,
+    "width": 124,
+    "area": 9764
+  },
+  {
+    "slug": "elliptical",
+    "frame": 1,
+    "effectiveInk": 2.16,
+    "height": 213,
+    "width": 122,
+    "area": 5962
+  },
+  {
+    "slug": "elliptical",
+    "frame": 2,
+    "effectiveInk": 2.17,
+    "height": 214,
+    "width": 124,
+    "area": 6009
+  },
+  {
+    "slug": "elliptical",
+    "frame": 3,
+    "effectiveInk": 3.33,
+    "height": 216,
+    "width": 126,
+    "area": 8562
+  },
+  {
+    "slug": "jump-rope",
+    "frame": 1,
+    "effectiveInk": 1.72,
+    "height": 210,
+    "width": 112,
+    "area": 3176
+  },
+  {
+    "slug": "jump-rope",
+    "frame": 2,
+    "effectiveInk": 1.91,
+    "height": 205,
+    "width": 121,
+    "area": 4019
+  },
+  {
+    "slug": "jump-rope",
+    "frame": 3,
+    "effectiveInk": 2.65,
+    "height": 217,
+    "width": 118,
+    "area": 4881
+  },
+  {
+    "slug": "banded-row",
+    "frame": 1,
+    "effectiveInk": 1.51,
+    "height": 213,
+    "width": 180,
+    "area": 2609
+  },
+  {
+    "slug": "banded-row",
+    "frame": 2,
+    "effectiveInk": 2.65,
+    "height": 216,
+    "width": 178,
+    "area": 4755
+  },
+  {
+    "slug": "banded-row",
+    "frame": 3,
+    "effectiveInk": 1.67,
+    "height": 214,
+    "width": 184,
+    "area": 3119
+  }
+]

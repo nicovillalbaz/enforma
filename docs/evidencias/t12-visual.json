@@ -1,0 +1,25 @@
+{
+  "version": "0.12.0",
+  "scope": "synthetic-local-only",
+  "browserInstances": 1,
+  "pdfGenerations": 0,
+  "checks": [
+    "mobile two-step sale with two exact installments",
+    "partial payment updates quota and contract balances",
+    "pupil sees own service and payment without management actions",
+    "CRM conversion links existing pupil without duplication",
+    "three separate currencies and authorized aggregate CSV"
+  ],
+  "viewportWidths": [
+    320,
+    390,
+    768,
+    1440,
+    320,
+    390
+  ],
+  "errors": [],
+  "status": "passed",
+  "fixtureCleaned": true,
+  "durationMs": 21299
+}

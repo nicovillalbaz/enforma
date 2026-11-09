@@ -1,0 +1,78 @@
+{
+  "checkedAt": "2026-10-22T18:03:58.834Z",
+  "version": "0.14.0",
+  "scope": "independent-coaches-local-preparation",
+  "status": "needs-attention",
+  "checks": {
+    "node24": true,
+    "productionConfig": false,
+    "versions": true,
+    "appliedMigrations": true,
+    "apiRole": true,
+    "webBuildPresent": true
+  },
+  "notes": [
+    "APP_ORIGIN: usar un origen exacto sin ruta; HTTPS obligatorio en producción."
+  ],
+  "manifestCount": 7,
+  "migrationCount": 22,
+  "migrationDigest": "8a35374cb406eff55d021540fca3db377ab1c8ee80fc055a34ec6f65f3ae5ea1",
+  "nextMigration": "023",
+  "webBuild": {
+    "entryFiles": [
+      {
+        "path": "/assets/index-Dpi0YmxH.js",
+        "bytes": 70485
+      },
+      {
+        "path": "/assets/runtime-core.esm-bundler-B5alvcUQ.js",
+        "bytes": 59453
+      },
+      {
+        "path": "/assets/runtime-dom.esm-bundler-lkbsTR7v.js",
+        "bytes": 10006
+      },
+      {
+        "path": "/assets/studio-BZzk5Xg-.js",
+        "bytes": 25107
+      },
+      {
+        "path": "/assets/devtools-EWN81iOl-DQ_LBeYF.js",
+        "bytes": 6830
+      },
+      {
+        "path": "/assets/vue-router-Chx4bN3p.js",
+        "bytes": 18735
+      },
+      {
+        "path": "/assets/createLucideIcon-C1SQdeVg.js",
+        "bytes": 2548
+      },
+      {
+        "path": "/assets/trending-up-DQLXfGVL.js",
+        "bytes": 396
+      },
+      {
+        "path": "/assets/arrow-right-Cdr8NQBM.js",
+        "bytes": 185
+      },
+      {
+        "path": "/assets/coach-start-BFtMMSwI.js",
+        "bytes": 100
+      },
+      {
+        "path": "/assets/index-BEsO5gUn.css",
+        "bytes": 95109
+      }
+    ],
+    "sourceFreshness": "not-verified"
+  },
+  "databaseCheckRequested": true,
+  "pilotApproved": false,
+  "externalGates": "docs/piloto/00-puertas.md",
+  "limitations": [
+    "No prueba DNS/TLS, correo, antivirus, Docker, teléfonos, recuperación externa, capacidad ni aprobación comercial.",
+    "Un rol restringido no demuestra todos los permisos RLS/IDOR; conservar evidencias de integración.",
+    "Los archivos web presentes no demuestran un build actualizado; ejecutar build una vez al preparar la versión."
+  ]
+}

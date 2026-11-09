@@ -1,0 +1,36 @@
+name: Verify application
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          { POSTGRES_USER: forma_admin, POSTGRES_PASSWORD: ci-local-admin-only, POSTGRES_DB: forma }
+        ports: ['54329:5432']
+        options: >-
+          --health-cmd "pg_isready -U forma_admin -d forma"
+          --health-interval 5s --health-timeout 3s --health-retries 10
+    env:
+      DATABASE_ADMIN_URL: postgres://forma_admin:ci-local-admin-only@127.0.0.1:54329/forma
+      DATABASE_URL: postgres://forma_api:ci-local-api-only@127.0.0.1:54329/forma
+      WORKER_DATABASE_URL: postgres://forma_worker:ci-local-worker-only@127.0.0.1:54329/forma
+      API_DATABASE_PASSWORD: ci-local-api-only
+      WORKER_DATABASE_PASSWORD: ci-local-worker-only
+      BACKUP_PASSPHRASE: ci-local-backup-passphrase-only
+      PG_BIN: /usr/lib/postgresql/16/bin
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 24, cache: npm }
+      - run: npm ci --no-audit
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: npm run lint
+      - run: npm run build
+      - run: npm test
+      - run: npm run test:db
+      - run: npm run db:migrate
+      - run: npm run db:seed
+      - run: npx playwright install --with-deps chromium webkit
+      - run: npm run test:e2e

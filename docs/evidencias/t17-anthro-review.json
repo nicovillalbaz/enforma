@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-26",
+  "checks": [
+    "server calculation and immutable finalized result",
+    "student sees final and cannot write",
+    "other coach denied",
+    "private XLSX downloaded",
+    {
+      "screen": 320,
+      "width": 320,
+      "documentWidth": 320,
+      "overflow": false,
+      "protruding": [
+        "a.:261-325"
+      ],
+      "inputFonts": [
+        16,
+        16
+      ]
+    },
+    {
+      "screen": 390,
+      "width": 390,
+      "documentWidth": 390,
+      "overflow": false,
+      "protruding": [],
+      "inputFonts": [
+        16,
+        16
+      ]
+    },
+    {
+      "screen": 1366,
+      "width": 1366,
+      "documentWidth": 1366,
+      "overflow": false,
+      "protruding": [],
+      "inputFonts": [
+        16,
+        16
+      ]
+    },
+    "detail opens without horizontal overflow",
+    {
+      "pdfBytes": 116226,
+      "kind": "browser print of finalized assessment"
+    },
+    "mobile capture advances by site without horizontal overflow"
+  ],
+  "screenshots": [
+    "docs/evidencias/t17-anthro-390.png",
+    "docs/evidencias/t17-anthro-1366.png"
+  ],
+  "errors": [],
+  "status": "passed"
+}

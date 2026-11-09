@@ -1,0 +1,15 @@
+{
+  "version": "0.12.0",
+  "scope": "read-only-spacing-capture",
+  "browserInstances": 1,
+  "domainMutations": 0,
+  "pdfGenerations": 0,
+  "errors": [],
+  "viewportWidths": [
+    1440,
+    320
+  ],
+  "reusedEvidence": "t12-visual.json",
+  "status": "passed",
+  "durationMs": 6953
+}

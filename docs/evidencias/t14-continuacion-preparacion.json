@@ -1,0 +1,90 @@
+{
+  "checkedAt": "2026-10-22T19:13:31.567Z",
+  "version": "0.14.1",
+  "scope": "independent-coaches-local-preparation",
+  "status": "needs-attention",
+  "checks": {
+    "node24": true,
+    "productionConfig": false,
+    "versions": true,
+    "appliedMigrations": null,
+    "apiRole": null,
+    "webBuildCurrent": true,
+    "webBuildPresent": true
+  },
+  "notes": [
+    "APP_ORIGIN: usar un origen exacto sin ruta; HTTPS obligatorio en producción."
+  ],
+  "manifestCount": 7,
+  "migrationCount": 22,
+  "migrationDigest": "8a35374cb406eff55d021540fca3db377ab1c8ee80fc055a34ec6f65f3ae5ea1",
+  "nextMigration": "023",
+  "webBuild": {
+    "entryFiles": [
+      {
+        "path": "/assets/index-DYXInYze.js",
+        "bytes": 70485
+      },
+      {
+        "path": "/assets/runtime-core.esm-bundler-B5alvcUQ.js",
+        "bytes": 59453
+      },
+      {
+        "path": "/assets/runtime-dom.esm-bundler-lkbsTR7v.js",
+        "bytes": 10006
+      },
+      {
+        "path": "/assets/studio-BZzk5Xg-.js",
+        "bytes": 25107
+      },
+      {
+        "path": "/assets/devtools-EWN81iOl-DQ_LBeYF.js",
+        "bytes": 6830
+      },
+      {
+        "path": "/assets/vue-router-Chx4bN3p.js",
+        "bytes": 18735
+      },
+      {
+        "path": "/assets/createLucideIcon-C1SQdeVg.js",
+        "bytes": 2548
+      },
+      {
+        "path": "/assets/trending-up-DQLXfGVL.js",
+        "bytes": 396
+      },
+      {
+        "path": "/assets/arrow-right-Cdr8NQBM.js",
+        "bytes": 185
+      },
+      {
+        "path": "/assets/coach-start-BFtMMSwI.js",
+        "bytes": 100
+      },
+      {
+        "path": "/assets/index-BEsO5gUn.css",
+        "bytes": 95109
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "versionMatches": true,
+      "sourceCurrent": true,
+      "artifactsIntact": true,
+      "builtAt": "2026-10-22T19:10:19.511Z",
+      "version": "0.14.1",
+      "sourceFiles": 128,
+      "artifactFiles": 73,
+      "sourceDigest": "ab37cb4ee42550eeb763c1b5313fad092fd5d05d7bf5e63db9e3ee6ad6dab8c6",
+      "artifactDigest": "b74d70244670252f729a14553d43ac4624af22cfa038d0a2d461b24af35c20da"
+    }
+  },
+  "databaseCheckRequested": false,
+  "pilotApproved": false,
+  "externalGates": "docs/piloto/00-puertas.md",
+  "limitations": [
+    "No prueba DNS/TLS, correo, antivirus, Docker, teléfonos, recuperación externa, capacidad ni aprobación comercial.",
+    "Un rol restringido no demuestra todos los permisos RLS/IDOR; conservar evidencias de integración.",
+    "Las huellas comparan fuentes web y artefactos locales con el manifiesto del build; no certifican el entorno, node_modules o autenticidad del constructor. API/worker tienen su propio inventario y no forman parte de esa huella web."
+  ]
+}

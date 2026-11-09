@@ -1,0 +1,472 @@
+.anthro-workspace {
+  width: min(100%, 1080px);
+  margin: 0 auto;
+  padding: clamp(12px, 2vw, 24px);
+  color: var(--text, #12213a);
+}
+.anthro-workspace * {
+  box-sizing: border-box;
+}
+.anthro-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.anthro-heading h1 {
+  font-size: clamp(20px, 2vw, 26px);
+  line-height: 1.15;
+  margin: 0 0 3px;
+}
+.anthro-heading span,
+.anthro-row small,
+.anthro-detail small {
+  color: var(--muted, #60728f);
+  font-size: 12px;
+}
+.anthro-heading button,
+.anthro-actions button {
+  min-height: 44px;
+}
+.anthro-filters,
+.anthro-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  align-items: end;
+}
+.anthro-filters {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
+  margin-bottom: 16px;
+}
+.anthro-workspace .field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+  font-size: 13px;
+  font-weight: 600;
+}
+.anthro-workspace .field input,
+.anthro-workspace .field select {
+  width: 100%;
+  min-width: 0;
+  min-height: 44px;
+  border: 1px solid #d9e2ed;
+  border-radius: 10px;
+  background: var(--surface, #fff);
+  color: inherit;
+  padding: 8px 12px;
+  font: inherit;
+  font-size: 16px;
+  font-weight: 400;
+}
+.anthro-workspace .field input:focus-visible,
+.anthro-workspace .field select:focus-visible,
+.anthro-workspace button:focus-visible {
+  outline: 2px solid #087ad1;
+  outline-offset: 2px;
+}
+.anthro-list {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+.anthro-row {
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1fr) auto 18px;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 64px;
+  padding: 10px 12px;
+  text-align: left;
+  background: var(--surface, #fff);
+  border: 1px solid #dfe7f0;
+  border-radius: 12px;
+  color: inherit;
+  cursor: pointer;
+}
+.anthro-row > span:nth-child(2) {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+}
+.anthro-row strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+}
+.anthro-row b {
+  font-size: 13px;
+  white-space: nowrap;
+}
+.anthro-row-icon {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: #eaf5fd;
+  color: #0063a9;
+}
+.anthro-empty {
+  padding: 20px;
+  border: 1px dashed #cbd7e5;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 13px;
+  color: #60728f;
+}
+.anthro-protocols {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 18px;
+}
+.anthro-protocols button {
+  min-height: 48px;
+  padding: 7px 10px;
+  border: 1px solid #d9e2ed;
+  border-radius: 10px;
+  background: var(--surface, #fff);
+  font: inherit;
+  font-size: 13px;
+  color: inherit;
+  cursor: pointer;
+}
+.anthro-protocols button.active {
+  border-color: #0069b3;
+  background: #eaf5fd;
+  color: #005a9d;
+  font-weight: 700;
+}
+.anthro-wide {
+  grid-column: 1/-1;
+}
+.anthro-actions {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+.anthro-step {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.anthro-step progress {
+  flex: 1;
+  max-width: 400px;
+  height: 7px;
+  accent-color: #0076b9;
+}
+.anthro-capture,
+.anthro-review,
+.anthro-detail,
+.anthro-custom,
+.anthro-correct {
+  background: var(--surface, #fff);
+  border: 1px solid #dfe7f0;
+  border-radius: 14px;
+  padding: clamp(14px, 2vw, 24px);
+}
+.anthro-capture {
+  max-width: 680px;
+}
+.anthro-capture > small {
+  display: block;
+  color: #0069b3;
+  font-size: 12px;
+  font-weight: 700;
+}
+.anthro-capture h2,
+.anthro-review h2,
+.anthro-detail h2 {
+  font-size: clamp(18px, 2vw, 23px);
+  line-height: 1.2;
+  margin: 5px 0;
+}
+.anthro-capture > span {
+  color: #60728f;
+  font-size: 12px;
+}
+.anthro-readings {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+.anthro-hint,
+.anthro-method,
+.anthro-review p {
+  color: #526581;
+  font-size: 13px;
+  line-height: 1.45;
+}
+.anthro-jump {
+  max-width: 680px;
+  margin-top: 14px;
+}
+.anthro-custom {
+  display: grid;
+  grid-template-columns: 2fr 1fr repeat(3, minmax(0, 1fr)) auto;
+  gap: 10px;
+  align-items: end;
+  margin-bottom: 10px;
+}
+.anthro-review {
+  max-width: 680px;
+}
+.anthro-detail > header {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 12px;
+}
+.anthro-detail > header > span {
+  padding: 5px 8px;
+  border-radius: 8px;
+  background: #eaf5fd;
+  color: #005a9d;
+  font-size: 11px;
+  white-space: nowrap;
+}
+.anthro-results {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 20px 0;
+}
+.anthro-results > div {
+  display: grid;
+  gap: 4px;
+  padding: 12px;
+  border-radius: 10px;
+  background: #f2f6fa;
+}
+.anthro-results strong {
+  font-size: 20px;
+}
+.anthro-observations {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 20px;
+}
+.anthro-observations > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  border-top: 1px solid #e4ebf3;
+  font-size: 13px;
+}
+.anthro-observations span {
+  flex: 1;
+  min-width: 0;
+}
+.anthro-observations span small {
+  display: block;
+  margin-top: 3px;
+  font-weight: 400;
+}
+.anthro-observations strong {
+  white-space: nowrap;
+}
+.anthro-observations small {
+  color: #9a4b1f;
+}
+.anthro-correct {
+  margin-top: 16px;
+}
+.anthro-trend {
+  margin: 16px 0;
+  padding: 14px;
+  border: 1px solid #dfe7f0;
+  border-radius: 12px;
+  background: var(--surface, #fff);
+}
+.anthro-trend > div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 14px;
+}
+.anthro-trend select {
+  max-width: 60%;
+  min-height: 36px;
+  border: 1px solid #d9e2ed;
+  border-radius: 8px;
+  background: var(--surface, #fff);
+  color: inherit;
+  font-size: 13px;
+  padding: 4px 8px;
+}
+.anthro-trend svg {
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin-top: 12px;
+}
+.anthro-trend polyline {
+  fill: none;
+  stroke: #0076b9;
+  stroke-width: 3;
+  vector-effect: non-scaling-stroke;
+}
+.anthro-trend-ends {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 12px;
+  color: #526581;
+}
+.anthro-print {
+  display: none;
+}
+@media (max-width: 760px) {
+  .anthro-workspace {
+    padding: 12px;
+  }
+  .anthro-protocols {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .anthro-custom {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .anthro-custom > .field:first-child {
+    grid-column: span 2;
+  }
+  .anthro-custom button {
+    grid-column: 1/-1;
+  }
+}
+@media (max-width: 480px) {
+  .anthro-heading {
+    align-items: start;
+  }
+  .anthro-heading button {
+    flex-shrink: 0;
+  }
+  .anthro-filters {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .anthro-filters button {
+    grid-column: 1/-1;
+    width: 100%;
+  }
+  .anthro-fields {
+    grid-template-columns: 1fr;
+  }
+  .anthro-row {
+    grid-template-columns: 34px minmax(0, 1fr) 16px;
+    gap: 8px;
+    padding: 8px;
+  }
+  .anthro-row-icon {
+    width: 34px;
+    height: 34px;
+  }
+  .anthro-row b {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 12px;
+  }
+  .anthro-row > svg {
+    grid-column: 3;
+    grid-row: 1/3;
+  }
+  .anthro-actions > * {
+    flex: 1 1 130px;
+  }
+  .anthro-readings {
+    gap: 6px;
+  }
+  .anthro-readings .field {
+    font-size: 11px;
+  }
+  .anthro-readings input {
+    padding: 6px;
+  }
+  .anthro-results {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .anthro-observations {
+    grid-template-columns: 1fr;
+  }
+  .anthro-detail > header {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 360px) {
+  .anthro-heading {
+    flex-wrap: wrap;
+  }
+  .anthro-heading > div {
+    min-width: 0;
+  }
+  .anthro-heading button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media print {
+  body * {
+    visibility: hidden !important;
+  }
+  .anthro-detail,
+  .anthro-detail *,
+  .anthro-print,
+  .anthro-print * {
+    visibility: visible !important;
+  }
+  .anthro-detail,
+  .anthro-print {
+    display: block;
+    position: absolute;
+    inset: 0 auto auto 0;
+    width: 100%;
+    border: 0;
+    color: #111;
+    background: #fff;
+    box-shadow: none;
+  }
+  .anthro-detail *,
+  .anthro-print article {
+    break-inside: avoid;
+  }
+  .anthro-print {
+    font:
+      10pt Arial,
+      sans-serif;
+    padding: 10mm;
+  }
+  .anthro-print h1 {
+    font-size: 18pt;
+  }
+  .anthro-print h2 {
+    font-size: 12pt;
+    margin-bottom: 4mm;
+  }
+  .anthro-print article {
+    padding: 5mm 0;
+    border-top: 1px solid #bbb;
+  }
+  .anthro-print table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .anthro-print th,
+  .anthro-print td {
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    padding: 1mm 2mm;
+  }
+}

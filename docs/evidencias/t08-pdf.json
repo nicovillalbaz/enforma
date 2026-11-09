@@ -1,0 +1,10 @@
+{
+  "scope": "synthetic-local-only",
+  "checkedAt": "2026-10-21T18:14:57.939Z",
+  "version": "0.8.0",
+  "status": "generated",
+  "pdfBytes": 282099,
+  "reason": "Keep each exercise heading, instructions and table together.",
+  "additionalBrowserInstances": 1,
+  "additionalPdfGenerations": 1
+}

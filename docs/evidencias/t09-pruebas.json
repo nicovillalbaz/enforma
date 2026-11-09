@@ -1,0 +1,31 @@
+{
+  "version": "0.9.0",
+  "uniqueIntegrationCases": 9,
+  "uniqueUnitCases": 4,
+  "runs": [
+    {
+      "path": ".local/t09-integration.json",
+      "passed": 9,
+      "failed": 0,
+      "skipped": 0
+    },
+    {
+      "path": ".local/t09-photo-directed.json",
+      "passed": 1,
+      "failed": 0,
+      "skipped": 8
+    },
+    {
+      "path": ".local/t09-null-directed.json",
+      "passed": 1,
+      "failed": 0,
+      "skipped": 8
+    },
+    {
+      "path": ".local/t09-unit.json",
+      "passed": 4,
+      "failed": 0,
+      "skipped": 0
+    }
+  ]
+}

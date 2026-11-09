@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-24",
+  "scope": "existing-synthetic-demo-ui",
+  "browserInstances": 1,
+  "pageErrors": [],
+  "checks": [
+    {
+      "label": "installation-first",
+      "result": "passed; native installation not attempted"
+    }
+  ],
+  "screenshots": [],
+  "businessWrites": 0,
+  "status": "failed",
+  "failedStage": "coach-login",
+  "error": "page.waitForURL: Timeout 6000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"http://127.0.0.1:4180/\" until \"load\"\n============================================================",
+  "durationMs": 7818
+}

@@ -1,0 +1,678 @@
+[
+  {
+    "slug": "bench-press",
+    "distances": [
+      23.3,
+      19.4,
+      20.42
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": true
+  },
+  {
+    "slug": "dumbbell-bench-press",
+    "distances": [
+      15.89,
+      14.76,
+      6.14
+    ],
+    "selected": [
+      1,
+      2
+    ],
+    "reviewed": true
+  },
+  {
+    "slug": "incline-bench-press",
+    "distances": [
+      24.66,
+      20.44,
+      14.23
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": true
+  },
+  {
+    "slug": "incline-dumbbell-press",
+    "distances": [
+      16.22,
+      14.93,
+      6.39
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": true
+  },
+  {
+    "slug": "machine-chest-press",
+    "distances": [
+      13.82,
+      17.12,
+      12.27
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": true
+  },
+  {
+    "slug": "dumbbell-fly",
+    "distances": [
+      17.15,
+      14.4,
+      11.59
+    ],
+    "selected": [
+      1,
+      2
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "cable-fly",
+    "distances": [
+      10.66,
+      13.46,
+      13.05
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "push-up",
+    "distances": [
+      19.09,
+      16.73,
+      15
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": true
+  },
+  {
+    "slug": "dip",
+    "distances": [
+      13.8,
+      14.92,
+      11.23
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "barbell-row",
+    "distances": [
+      25.15,
+      23.01,
+      19.95
+    ],
+    "selected": [
+      1,
+      2
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "one-arm-dumbbell-row",
+    "distances": [
+      9.16,
+      10.56,
+      7.9
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "machine-row",
+    "distances": [
+      9.28,
+      8.02,
+      9.05
+    ],
+    "selected": [
+      1,
+      2
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "seated-row",
+    "distances": [
+      10.47,
+      12.93,
+      8.19
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "lat-pulldown",
+    "distances": [
+      12.07,
+      12.21,
+      11
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": true
+  },
+  {
+    "slug": "pull-up",
+    "distances": [
+      7.68,
+      12.62,
+      10.96
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "assisted-pull-up",
+    "distances": [
+      9.03,
+      9.08,
+      8.27
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "deadlift",
+    "distances": [
+      19.47,
+      19.54,
+      20.6
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": true
+  },
+  {
+    "slug": "romanian-deadlift",
+    "distances": [
+      16.09,
+      20.22,
+      21.46
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": true
+  },
+  {
+    "slug": "sumo-deadlift",
+    "distances": [
+      19.31,
+      16.08,
+      15.16
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": true
+  },
+  {
+    "slug": "squat",
+    "distances": [
+      18.05,
+      22.58,
+      21.23
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "goblet-squat",
+    "distances": [
+      8.02,
+      9.45,
+      8.61
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": true
+  },
+  {
+    "slug": "front-squat",
+    "distances": [
+      16.31,
+      18.74,
+      17.51
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "bulgarian-split-squat",
+    "distances": [
+      9.36,
+      13.95,
+      11.59
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "walking-lunge",
+    "distances": [
+      16.36,
+      20.29,
+      20.51
+    ],
+    "selected": [
+      2,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "reverse-lunge",
+    "distances": [
+      14.13,
+      21.98,
+      22.09
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": true
+  },
+  {
+    "slug": "step-up",
+    "distances": [
+      15.57,
+      11.64,
+      12.3
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": true
+  },
+  {
+    "slug": "leg-press",
+    "distances": [
+      10.31,
+      10.48,
+      8.52
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": true
+  },
+  {
+    "slug": "leg-extension",
+    "distances": [
+      12.64,
+      12,
+      9.12
+    ],
+    "selected": [
+      1,
+      2
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "lying-leg-curl",
+    "distances": [
+      6.66,
+      8.89,
+      7.17
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "seated-leg-curl",
+    "distances": [
+      12.61,
+      11.01,
+      8.93
+    ],
+    "selected": [
+      1,
+      2
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "standing-calf-raise",
+    "distances": [
+      10.64,
+      11.8,
+      9.08
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "seated-calf-raise",
+    "distances": [
+      16.8,
+      16.38,
+      4.8
+    ],
+    "selected": [
+      1,
+      2
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "hip-thrust",
+    "distances": [
+      14.68,
+      12.37,
+      13.68
+    ],
+    "selected": [
+      1,
+      2
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "glute-bridge",
+    "distances": [
+      8.06,
+      9.44,
+      6.1
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "overhead-press",
+    "distances": [
+      8.16,
+      12.91,
+      10.53
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "standing-dumbbell-press",
+    "distances": [
+      11.18,
+      7.32,
+      8.82
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": true
+  },
+  {
+    "slug": "machine-shoulder-press",
+    "distances": [
+      18.65,
+      16.31,
+      16.23
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": true
+  },
+  {
+    "slug": "lateral-raise",
+    "distances": [
+      13.2,
+      15.75,
+      12.95
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "cable-lateral-raise",
+    "distances": [
+      17.46,
+      11.29,
+      15.41
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": true
+  },
+  {
+    "slug": "bicep-curl",
+    "distances": [
+      7.08,
+      9.18,
+      5.43
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "ez-bar-curl",
+    "distances": [
+      13.45,
+      17.68,
+      13.65
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "hammer-curl",
+    "distances": [
+      7.16,
+      8.11,
+      5.13
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "tricep-pushdown",
+    "distances": [
+      6.16,
+      6.7,
+      2.86
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "dumbbell-overhead-tricep-extension",
+    "distances": [
+      9.41,
+      9.87,
+      3.36
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "bench-dip",
+    "distances": [
+      13.88,
+      14.61,
+      12.62
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "plank",
+    "distances": [
+      3.29,
+      4.4,
+      4.27
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "crunch",
+    "distances": [
+      7.24,
+      9.44,
+      5.99
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "treadmill-incline-walk",
+    "distances": [
+      15.06,
+      3.24,
+      15
+    ],
+    "selected": [
+      1,
+      2
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "assault-bike",
+    "distances": [
+      13.97,
+      11.23,
+      13.97
+    ],
+    "selected": [
+      1,
+      2
+    ],
+    "reviewed": false
+  },
+  {
+    "slug": "elliptical",
+    "distances": [
+      8.58,
+      9.88,
+      13.59
+    ],
+    "selected": [
+      1,
+      2
+    ],
+    "reviewed": true
+  },
+  {
+    "slug": "jump-rope",
+    "distances": [
+      7.61,
+      14.87,
+      15.04
+    ],
+    "selected": [
+      1,
+      2
+    ],
+    "reviewed": true
+  },
+  {
+    "slug": "banded-row",
+    "distances": [
+      7.55,
+      12.18,
+      15.92
+    ],
+    "selected": [
+      1,
+      3
+    ],
+    "reviewed": true
+  }
+]

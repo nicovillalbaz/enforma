@@ -1,0 +1,85 @@
+{
+  "version": "0.12.0",
+  "scope": "new-targeted-tests-only",
+  "runs": [
+    {
+      "file": "t12-integration.json",
+      "total": 9,
+      "passed": 8,
+      "failed": 1,
+      "skipped": 0
+    },
+    {
+      "file": "t12-report-directed.json",
+      "total": 9,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 8
+    },
+    {
+      "file": "t12-unit.json",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0
+    }
+  ],
+  "uniquePassed": 11,
+  "assertions": [
+    {
+      "name": "isolates commercial data and reserves CRM, exports and mutations to the owner",
+      "status": "passed",
+      "source": "t12-integration.json"
+    },
+    {
+      "name": "freezes sold terms and exact installments while rejecting a stale or incomplete price",
+      "status": "passed",
+      "source": "t12-integration.json"
+    },
+    {
+      "name": "records partial payments idempotently, guards references and serializes the remaining balance",
+      "status": "passed",
+      "source": "t12-integration.json"
+    },
+    {
+      "name": "keeps receipts private, retains their storage reference and avoids duplicate files on retry",
+      "status": "passed",
+      "source": "t12-integration.json"
+    },
+    {
+      "name": "distinguishes refunds, corrections and debt adjustments without deleting financial history",
+      "status": "passed",
+      "source": "t12-integration.json"
+    },
+    {
+      "name": "handles capacity, expiry and explicit renewal while preserving SaaS and agenda state",
+      "status": "passed",
+      "source": "t12-integration.json"
+    },
+    {
+      "name": "consumes only an attended booking in its package period and restores once with a ledger entry",
+      "status": "passed",
+      "source": "t12-integration.json"
+    },
+    {
+      "name": "converts a prospect to an existing student once and erases closed personal data with bounded retention",
+      "status": "passed",
+      "source": "t12-integration.json"
+    },
+    {
+      "name": "reports real cash separately by currency, excludes corrected payments and exports numeric CSV",
+      "status": "passed",
+      "source": "t12-report-directed.json"
+    },
+    {
+      "name": "parses money exactly and rejects ambiguous grouping, extra precision and unsafe amounts",
+      "status": "passed",
+      "source": "t12-unit.json"
+    },
+    {
+      "name": "formats aggregated minor units beyond JavaScript safe integer range without losing units or mixing currency",
+      "status": "passed",
+      "source": "t12-unit.json"
+    }
+  ]
+}

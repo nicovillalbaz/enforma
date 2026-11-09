@@ -1,0 +1,20 @@
+{
+  "scope": "synthetic-local-only",
+  "version": "0.8.0",
+  "browserInstances": 1,
+  "pdfGenerations": 1,
+  "viewportWidths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "errors": [],
+  "pdfBytes": 280319,
+  "chromiumVersion": "156.0.8078.4",
+  "studentRead": 200,
+  "revokedRead": 404,
+  "durationSeconds": 13,
+  "checkedAt": "2026-10-21T18:07:00.723Z",
+  "status": "passed"
+}

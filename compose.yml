@@ -1,0 +1,128 @@
+name: forma
+services:
+  db:
+    image: postgres:18-bookworm
+    environment:
+      POSTGRES_USER: forma_admin
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Run npm run setup}
+      POSTGRES_DB: forma
+    ports: ['127.0.0.1:54329:5432']
+    volumes: ['database:/var/lib/postgresql']
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U forma_admin -d forma']
+      interval: 5s
+      timeout: 3s
+      retries: 10
+  migrate:
+    build: { context: ., dockerfile: infra/Dockerfile, target: app }
+    command: ['node', '--import', 'tsx', 'packages/db/src/migrate.ts']
+    environment:
+      DATABASE_ADMIN_URL: postgres://forma_admin:${POSTGRES_PASSWORD}@db:5432/forma
+      API_DATABASE_PASSWORD: ${API_DATABASE_PASSWORD}
+      WORKER_DATABASE_PASSWORD: ${WORKER_DATABASE_PASSWORD}
+    depends_on:
+      db: { condition: service_healthy }
+  api:
+    build: { context: ., dockerfile: infra/Dockerfile, target: app }
+    environment:
+      HOST: 0.0.0.0
+      PORT: 3001
+      NODE_ENV: development
+      APP_ORIGIN: http://127.0.0.1:8080
+      COOKIE_SECRET: ${COOKIE_SECRET}
+      DATABASE_URL: postgres://forma_api:${API_DATABASE_PASSWORD}@db:5432/forma
+      STORAGE_PATH: /data/storage
+      CLAMAV_HOST: ${CLAMAV_HOST:-}
+      CLAMAV_PORT: ${CLAMAV_PORT:-3310}
+    volumes: ['storage:/data/storage']
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+    healthcheck:
+      test:
+        [
+          'CMD',
+          'node',
+          '-e',
+          "fetch('http://127.0.0.1:3001/v1/ready').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))",
+        ]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+  worker:
+    build: { context: ., dockerfile: infra/Dockerfile, target: app }
+    command: ['node', '--import', 'tsx', 'apps/worker/src/index.ts']
+    environment:
+      WORKER_DATABASE_URL: postgres://forma_worker:${WORKER_DATABASE_PASSWORD}@db:5432/forma
+      SMTP_HOST: mailpit
+      SMTP_PORT: 1025
+      SMTP_FROM: Forma <no-reply@localhost>
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+  mailpit:
+    image: axllent/mailpit:v1.27
+    ports: ['127.0.0.1:8025:8025']
+  media:
+    build: { context: ., dockerfile: infra/Dockerfile, target: app }
+    command: ['node', '--import', 'tsx', 'apps/worker/src/media-server.ts']
+    environment:
+      WORKER_DATABASE_URL: postgres://forma_worker:${WORKER_DATABASE_PASSWORD}@db:5432/forma
+      STORAGE_PATH: /data/storage
+      CLAMAV_HOST: ${CLAMAV_HOST:-}
+      CLAMAV_PORT: ${CLAMAV_PORT:-3310}
+      MEDIA_WORKER_CONCURRENCY: ${MEDIA_WORKER_CONCURRENCY:-1}
+    volumes: ['storage:/data/storage']
+    cpus: 2
+    tmpfs: ['/app/.local/media-work:rw,size=134217728,uid=1000,gid=1000,mode=0700']
+    mem_limit: 768m
+    pids_limit: 64
+    stop_grace_period: 90s
+    healthcheck:
+      test: ['CMD', 'node', '--import', 'tsx', 'scripts/check-media-worker.ts']
+      interval: 15s
+      timeout: 5s
+      retries: 3
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+  followup:
+    build: { context: ., dockerfile: infra/Dockerfile, target: app }
+    command: ['node', '--import', 'tsx', 'apps/worker/src/followup-server.ts']
+    environment:
+      WORKER_DATABASE_URL: postgres://forma_worker:${WORKER_DATABASE_PASSWORD}@db:5432/forma
+    cpus: 0.25
+    mem_limit: 128m
+    pids_limit: 32
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+  web:
+    build: { context: ., dockerfile: infra/Dockerfile, target: web }
+    ports: ['127.0.0.1:8080:8080']
+    depends_on:
+      api: { condition: service_healthy }
+  documents:
+    build: { context: ., dockerfile: infra/Dockerfile, target: documents }
+    environment:
+      WORKER_DATABASE_URL: postgres://forma_worker:${WORKER_DATABASE_PASSWORD}@db:5432/forma
+      STORAGE_PATH: /data/storage
+      CLAMAV_HOST: ${CLAMAV_HOST:-}
+      CLAMAV_PORT: ${CLAMAV_PORT:-3310}
+    volumes: ['storage:/data/storage']
+    cpus: 1
+    mem_limit: 768m
+    pids_limit: 128
+    stop_grace_period: 90s
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+  backup:
+    profiles: ['backup']
+    build: { context: ., dockerfile: infra/Dockerfile, target: backup }
+    environment:
+      DATABASE_ADMIN_URL: postgres://forma_admin:${POSTGRES_PASSWORD}@db:5432/forma
+      STORAGE_PATH: /data/storage
+      BACKUP_PASSPHRASE: ${BACKUP_PASSPHRASE}
+      BACKUP_PATH: /backup
+    volumes: ['storage:/data/storage:ro', '${BACKUP_HOST_PATH:-./.local/backups}:/backup']
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+volumes:
+  database:
+  storage:

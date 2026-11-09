@@ -1,0 +1,19 @@
+{
+  "version": "0.11.0",
+  "scope": "targeted-rules-cancel-rebook-header",
+  "browserInstances": 1,
+  "pdfGenerations": 0,
+  "checks": [
+    "pupil reserves through UI",
+    "rules and read-only preview visible",
+    "cancel and reserve again create a new booking"
+  ],
+  "viewportWidths": [
+    320
+  ],
+  "errors": [],
+  "reusedEvidence": "t11-visual-inicial.json",
+  "status": "passed",
+  "fixtureCleaned": true,
+  "durationMs": 12382
+}

@@ -1,0 +1,89 @@
+{
+  "version": "0.14.0",
+  "scope": "local-injection-synthetic-data",
+  "browserInstances": 0,
+  "domainMutations": 0,
+  "pdfGenerations": 0,
+  "requests": 26,
+  "samplesPerRoute": 3,
+  "routes": [
+    {
+      "route": "/v1/organizations/:id/coach-start",
+      "samplesMs": [
+        269.42,
+        9.51,
+        9.24
+      ],
+      "minMs": 9.24,
+      "medianMs": 9.51,
+      "maxMs": 269.42,
+      "lastResponseBytes": 196
+    },
+    {
+      "route": "/v1/organizations/:id/students",
+      "samplesMs": [
+        17.59,
+        7.37,
+        6.36
+      ],
+      "minMs": 6.36,
+      "medianMs": 7.37,
+      "maxMs": 17.59,
+      "lastResponseBytes": 325
+    },
+    {
+      "route": "/v1/organizations/:id/programs?limit=20",
+      "samplesMs": [
+        11.39,
+        6.54,
+        5.91
+      ],
+      "minMs": 5.91,
+      "medianMs": 6.54,
+      "maxMs": 11.39,
+      "lastResponseBytes": 33
+    },
+    {
+      "route": "/v1/organizations/:id/agenda",
+      "samplesMs": [
+        72.73,
+        29.17,
+        29.34
+      ],
+      "minMs": 29.17,
+      "medianMs": 29.34,
+      "maxMs": 72.73,
+      "lastResponseBytes": 2366
+    },
+    {
+      "route": "/v1/organizations/:id/commerce",
+      "samplesMs": [
+        69.43,
+        31.39,
+        24.17
+      ],
+      "minMs": 24.17,
+      "medianMs": 31.39,
+      "maxMs": 69.43,
+      "lastResponseBytes": 2376
+    }
+  ],
+  "boundaries": [
+    {
+      "label": "pupil denied owner overview",
+      "status": 403
+    },
+    {
+      "label": "pupil denied business reports",
+      "status": 403
+    }
+  ],
+  "limitations": "In-process API injection: no TCP/TLS/proxy, browser render, mobile network, load or p95. Login/logout write only technical session/audit state.",
+  "status": "failed",
+  "message": "Local pass failed; inspect the case locally without publishing content/credentials.",
+  "logoutStatuses": [
+    200,
+    200
+  ],
+  "durationMs": 10329
+}

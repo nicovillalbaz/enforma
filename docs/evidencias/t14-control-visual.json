@@ -1,0 +1,19 @@
+{
+  "version": "0.14.2",
+  "scope": "isolated-monthly-admin-and-coach",
+  "browserInstances": 1,
+  "pageErrors": [],
+  "checks": [
+    "admin sets monthly price/cap/access and separately marks month",
+    "lost response retry preserves intention and one monthly pupil event",
+    "coach access decision is separate and earlier month has no copied payment",
+    "own monthly account read only and registration explains manual approval without automatic trial"
+  ],
+  "pdfGenerations": 0,
+  "screenshots": 2,
+  "mainDatabaseDomainMutations": 0,
+  "status": "passed",
+  "isolatedDatabaseDropped": true,
+  "isolatedStorageRemoved": true,
+  "durationMs": 11946
+}

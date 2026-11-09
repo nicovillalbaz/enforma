@@ -1,0 +1,97 @@
+{
+  "version": "0.11.0",
+  "scope": "new-targeted-tests-only",
+  "runs": [
+    {
+      "file": "t11-integration.json",
+      "total": 9,
+      "passed": 6,
+      "failed": 3,
+      "skipped": 0
+    },
+    {
+      "file": "t11-directed.json",
+      "total": 9,
+      "passed": 3,
+      "failed": 0,
+      "skipped": 6
+    },
+    {
+      "file": "t11-rules-directed.json",
+      "total": 9,
+      "passed": 2,
+      "failed": 0,
+      "skipped": 7
+    },
+    {
+      "file": "t11-unit.json",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0
+    }
+  ],
+  "uniquePassed": 12,
+  "assertions": [
+    {
+      "name": "isolates calendars, student rosters, rules and tenant access without granting private chat",
+      "status": "passed",
+      "source": "t11-integration.json"
+    },
+    {
+      "name": "rejects professional and pupil overlaps, permits adjacent sessions and detects timezone mismatch",
+      "status": "passed",
+      "source": "t11-integration.json"
+    },
+    {
+      "name": "publishes immutable rule versions, previews without delivery and pauses queued welcome notices",
+      "status": "passed",
+      "source": "t11-rules-directed.json"
+    },
+    {
+      "name": "deduplicates due reminders, respects preferences and defers daily limits without burning retries",
+      "status": "passed",
+      "source": "t11-integration.json"
+    },
+    {
+      "name": "uses organization quiet hours through DST and retries only technical failures without duplicate delivery",
+      "status": "passed",
+      "source": "t11-integration.json"
+    },
+    {
+      "name": "bridges pending check-ins only with their own consent and suppresses delivery after revocation",
+      "status": "passed",
+      "source": "t11-rules-directed.json"
+    },
+    {
+      "name": "serializes the last seat, preserves exact retry receipts and exposes no other pupil names",
+      "status": "passed",
+      "source": "t11-directed.json"
+    },
+    {
+      "name": "enforces cancellation windows, records staff exceptions and notifies edits without losing reservations",
+      "status": "passed",
+      "source": "t11-directed.json"
+    },
+    {
+      "name": "records attendance with CAS and exact retries only after session start",
+      "status": "passed",
+      "source": "t11-directed.json"
+    },
+    {
+      "name": "rejects a nonexistent local hour and invalid dates instead of shifting the booking",
+      "status": "passed",
+      "source": "t11-unit.json"
+    },
+    {
+      "name": "returns both interpretations of a repeated hour for explicit choice",
+      "status": "passed",
+      "source": "t11-unit.json"
+    },
+    {
+      "name": "keeps wall-clock formatting separate from the device zone and shifts leap dates safely",
+      "status": "passed",
+      "source": "t11-unit.json"
+    }
+  ]
+}

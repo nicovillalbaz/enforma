@@ -1,0 +1,20 @@
+{
+  "version": "0.10.0",
+  "scope": "synthetic-local-only",
+  "browserInstances": 1,
+  "pdfGenerations": 0,
+  "viewportWidths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "errors": [],
+  "checks": [
+    "two-context chat and WebSocket refresh"
+  ],
+  "status": "failed",
+  "failedStage": "habit-builder",
+  "failure": "locator.selectOption: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel('Tipo', { exact: true })\u001b[22m\n",
+  "durationMs": 17842
+}

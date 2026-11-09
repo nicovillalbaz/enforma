@@ -1,0 +1,6 @@
+# Correo de pruebas visible únicamente desde la propia VM o un túnel SSH.
+# Usar después de compose.yml y compose.production.yml con --profile local-mail.
+services:
+  mailpit:
+    ports: !override
+      - '127.0.0.1:8025:8025'

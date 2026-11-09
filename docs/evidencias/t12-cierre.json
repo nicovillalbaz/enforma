@@ -1,0 +1,14 @@
+{
+  "version": "0.12.0",
+  "packageManifests": 7,
+  "versionsAligned": true,
+  "uniqueNewCasesPassed": 11,
+  "browserInstancesTotal": 2,
+  "browserDurationMs": 28252,
+  "readOnlyContinuation": true,
+  "pageErrors": [],
+  "fixtureCleaned": true,
+  "pdfGenerations": 0,
+  "historicalSuitesRun": false,
+  "backupRestoreRun": false
+}

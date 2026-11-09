@@ -1,0 +1,69 @@
+{
+  "version": "0.14.0",
+  "checkedAt": "2026-10-22T18:09:21.923Z",
+  "scope": "independent-coaches-only",
+  "localPreparationDelivered": true,
+  "physicalAndExternalAcceptanceComplete": false,
+  "pilotApproved": false,
+  "pilotRealCoaches": 0,
+  "migrations": 22,
+  "nextMigration": "023",
+  "migrationChecksumsMatch": true,
+  "apiRoleRestricted": true,
+  "packageManifests": 7,
+  "versionsAligned": true,
+  "newUniqueUnitCasesPassed": 3,
+  "initialUnitFailed": 1,
+  "unitFilterRetriedOnly": "proxy",
+  "apiRoutesMeasured": 5,
+  "samplesPerRoute": 3,
+  "localReadPasses": [
+    {
+      "durationMs": 10329,
+      "requests": 26,
+      "status": "failed",
+      "reason": "Script expected 403 for another space; contract is 404. Measurements and two pupil denials completed."
+    },
+    {
+      "durationMs": 1713,
+      "requests": 6,
+      "status": "passed",
+      "scope": "remaining foreign-space and unauthenticated denials only"
+    }
+  ],
+  "uniqueAccessBoundariesApproved": 4,
+  "technicalSessionsRevoked": true,
+  "buildAndTypes": "passed-once",
+  "lint": "passed-global-and-manual-script-followup",
+  "composeConfig": "passed-without-starting-containers; SMTP user/password unset warnings",
+  "productionConfig": false,
+  "productionConfigReason": [
+    "APP_ORIGIN: usar un origen exacto sin ruta; HTTPS obligatorio en producción."
+  ],
+  "operationalChecks": {
+    "agendaWorker": false,
+    "followupWorker": false,
+    "database": true,
+    "disk": true,
+    "mediaWorker": false,
+    "documentWorker": false,
+    "queue": false,
+    "localBackup": false
+  },
+  "delayedSyntheticJobs": 499,
+  "operationalSnapshotHealthy": false,
+  "browserInstances": 0,
+  "visualEvidenceReused": "t13",
+  "domainMutations": 0,
+  "pdfGenerations": 0,
+  "historicalSuitesRun": false,
+  "loadTestRun": false,
+  "backupRestoreRun": false,
+  "dependenciesInstalled": false,
+  "newDependencies": 0,
+  "newDomainTables": 0,
+  "backupIndicatorsExpected": 81,
+  "creatorSignature": "Creado por NAVZ, +595972995557",
+  "externalGates": "docs/piloto/00-puertas.md",
+  "nextSteps": "docs/piloto/03-salida-independiente.md"
+}

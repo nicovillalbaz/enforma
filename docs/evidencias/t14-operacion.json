@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-10-22T18:04:05.002Z",
+  "scope": "local-only",
+  "checks": {
+    "agendaWorker": false,
+    "followupWorker": false,
+    "database": true,
+    "disk": true,
+    "mediaWorker": false,
+    "documentWorker": false,
+    "queue": false,
+    "localBackup": false
+  },
+  "databaseBytes": 23376355,
+  "diskFreeBytes": 82695720960,
+  "diskTotalBytes": 510849445888,
+  "failedJobs": 10,
+  "delayedJobs": 499,
+  "pendingByKind": [
+    {
+      "kind": "email.invitation",
+      "pending": 263,
+      "delayed": 263
+    },
+    {
+      "kind": "email.verification",
+      "pending": 235,
+      "delayed": 235
+    },
+    {
+      "kind": "system.echo",
+      "pending": 1,
+      "delayed": 1
+    }
+  ],
+  "internalNotices": {
+    "scheduled": 0,
+    "failed": 0
+  },
+  "workerCount": 0,
+  "documentStorageBytes": 817443,
+  "coachReceiptStorageBytes": 0,
+  "storageBytes": 1205793,
+  "enabledStudents": 230,
+  "estimatedStorage100Bytes": 524258,
+  "backupAgeHours": 25.878143055555554,
+  "externalBackupVerified": false,
+  "cost100": {
+    "vpsPyg": null,
+    "backupPyg": null,
+    "supportPyg": null,
+    "totalKnownPyg": null,
+    "excludes": "Dominio, impuestos, egreso, crecimiento de medios y costes no introducidos; no es una tarifa comercial."
+  }
+}

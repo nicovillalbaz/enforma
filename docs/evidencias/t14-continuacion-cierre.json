@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-10-22T19:19:08.115Z",
+  "version": "0.14.1",
+  "scope": "independent-coaches-local-continuation",
+  "migrationsUnchanged": "001-022",
+  "nextMigration": "023",
+  "newUniqueUnitCasesPassed": 2,
+  "unitInitialFailures": 0,
+  "affectedArtifactCaseRepeated": {
+    "passed": 1,
+    "skipped": 1
+  },
+  "versionsAligned": true,
+  "packageManifests": 7,
+  "webBuildPresent": true,
+  "webBuildCurrent": true,
+  "webSources": 128,
+  "webArtifacts": 73,
+  "serverTypes": "passed-once",
+  "webPackaging": "passed-once",
+  "vueTypecheckRepeated": false,
+  "lint": "passed-on-changed-scripts-and-tests",
+  "databaseInventoryRepeated": false,
+  "webkit": {
+    "status": "passed",
+    "browserInstances": 1,
+    "durationMs": 27664,
+    "pageErrors": [],
+    "viewportWidths": [
+      320,
+      1440
+    ],
+    "screenshots": 0,
+    "traces": 0,
+    "isolatedDatabaseDropped": true,
+    "isolatedStorageRemoved": true
+  },
+  "t07PaymentRetryReceiptFunctionalRemainder": "verified-by-focused-webkit-case",
+  "historicalBillingWholeScenarioRerun": false,
+  "mainDatabaseDomainMutations": 0,
+  "pdfGenerations": 0,
+  "emailsSent": 0,
+  "workersStarted": false,
+  "dependenciesInstalled": false,
+  "newDependencies": 0,
+  "newProductMigrations": 0,
+  "historicalSuitesRun": false,
+  "loadTestRun": false,
+  "backupRestoreRun": false,
+  "productionConfig": false,
+  "preflightStatus": "needs-attention",
+  "remainingConfigNotes": [
+    "APP_ORIGIN: usar un origen exacto sin ruta; HTTPS obligatorio en producción."
+  ],
+  "pilotApproved": false,
+  "realCoaches": 0,
+  "backupIndicatorsExpected": 81,
+  "nextSteps": "docs/piloto/03-salida-independiente.md"
+}

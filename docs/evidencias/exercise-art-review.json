@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "name": "Press de banca con barra",
+      "width": 390,
+      "scrollWidth": 390,
+      "frames": 2,
+      "loaded": true,
+      "controls": 0,
+      "animation": "1.8s"
+    },
+    {
+      "name": "Press de banca con mancuernas",
+      "width": 390,
+      "scrollWidth": 390,
+      "frames": 2,
+      "loaded": true,
+      "controls": 0,
+      "animation": "1.8s"
+    },
+    {
+      "name": "Press de pecho en máquina",
+      "width": 390,
+      "scrollWidth": 390,
+      "frames": 2,
+      "loaded": true,
+      "controls": 0,
+      "animation": "1.8s"
+    }
+  ],
+  "errors": []
+}

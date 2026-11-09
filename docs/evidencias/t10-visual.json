@@ -1,0 +1,32 @@
+{
+  "version": "0.10.0",
+  "scope": "synthetic-local-only",
+  "browserInstances": 4,
+  "pdfGenerations": 0,
+  "viewportWidths": [
+    320,
+    390,
+    768,
+    1440,
+    320
+  ],
+  "errors": [],
+  "checks": [
+    "two-context chat and WebSocket refresh",
+    "habit UI with optional target",
+    "template save, publish and schedule through UI",
+    "pupil habit zero and check-in response",
+    "coach review persisted from UI, confirmed by read-only query"
+  ],
+  "continuedFrom": "t10-visual-revision.json",
+  "status": "partial-observation-confirmed",
+  "durationMs": 16616,
+  "totalObservedMs": 58471,
+  "confirmedStoredReview": true,
+  "browserReconnection": "not executed; server ordering/revalidation covered by integration; physical gate open",
+  "notes": [
+    "Four sequential short browser runs; prior work reused; no further browser rerun.",
+    "Selectors failed after successful response/review because their form/button was replaced.",
+    "Mobile task ordering and compact future cards refined after screenshots, without new capture."
+  ]
+}

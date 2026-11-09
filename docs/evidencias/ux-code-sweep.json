@@ -1,0 +1,693 @@
+{
+  "date": "2026-10-26",
+  "scope": "coach-student-admin-public",
+  "businessWrites": 0,
+  "pages": [
+    {
+      "role": "coach",
+      "target": "/",
+      "actual": "/",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Inicio"
+      ],
+      "mainTextLength": 196,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "coach",
+      "target": "/alumnos",
+      "actual": "/alumnos",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Alumnos"
+      ],
+      "mainTextLength": 258,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "coach",
+      "target": "/alumnos/9ae5411a-303d-44c8-8aae-257a0052a61f",
+      "actual": "/alumnos/9ae5411a-303d-44c8-8aae-257a0052a61f",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Luna ficticia"
+      ],
+      "mainTextLength": 468,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "coach",
+      "target": "/alumnos/9ae5411a-303d-44c8-8aae-257a0052a61f",
+      "actual": "/alumnos/9ae5411a-303d-44c8-8aae-257a0052a61f",
+      "width": 320,
+      "viewport": 320,
+      "documentWidth": 320,
+      "headings": [
+        "Luna ficticia"
+      ],
+      "mainTextLength": 468,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "coach",
+      "target": "/alumnos/9ae5411a-303d-44c8-8aae-257a0052a61f",
+      "actual": "/alumnos/9ae5411a-303d-44c8-8aae-257a0052a61f",
+      "width": 1366,
+      "viewport": 1366,
+      "documentWidth": 1366,
+      "headings": [
+        "Luna ficticia"
+      ],
+      "mainTextLength": 468,
+      "smallTargets": [
+        {
+          "text": "Inicio",
+          "className": ""
+        },
+        {
+          "text": "Alumnos",
+          "className": ""
+        },
+        {
+          "text": "Rutinas",
+          "className": ""
+        },
+        {
+          "text": "Ejercicios",
+          "className": ""
+        },
+        {
+          "text": "Dieta",
+          "className": ""
+        },
+        {
+          "text": "Mi marca",
+          "className": ""
+        },
+        {
+          "text": "Mi mensualidad",
+          "className": ""
+        },
+        {
+          "text": "Mensualidades",
+          "className": ""
+        },
+        {
+          "text": "Mi perfil",
+          "className": ""
+        },
+        {
+          "text": "Ver mi app",
+          "className": "preview-link"
+        },
+        {
+          "text": "Mis opciones (1)",
+          "className": "text-button"
+        }
+      ],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "coach",
+      "target": "/rutinas",
+      "actual": "/rutinas",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Rutinas",
+        "Rutina ficticia · Aurora"
+      ],
+      "mainTextLength": 291,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "coach",
+      "target": "/rutinas",
+      "actual": "/rutinas",
+      "width": 320,
+      "viewport": 320,
+      "documentWidth": 320,
+      "headings": [
+        "Rutinas",
+        "Rutina ficticia · Aurora"
+      ],
+      "mainTextLength": 291,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "coach",
+      "target": "/rutinas",
+      "actual": "/rutinas",
+      "width": 1366,
+      "viewport": 1366,
+      "documentWidth": 1366,
+      "headings": [
+        "Rutinas",
+        "Rutina ficticia · Aurora"
+      ],
+      "mainTextLength": 291,
+      "smallTargets": [
+        {
+          "text": "Inicio",
+          "className": ""
+        },
+        {
+          "text": "Alumnos",
+          "className": ""
+        },
+        {
+          "text": "Rutinas",
+          "className": "router-link-active router-link-exact-active active"
+        },
+        {
+          "text": "Ejercicios",
+          "className": ""
+        },
+        {
+          "text": "Dieta",
+          "className": ""
+        },
+        {
+          "text": "Mi marca",
+          "className": ""
+        },
+        {
+          "text": "Mi mensualidad",
+          "className": ""
+        },
+        {
+          "text": "Mensualidades",
+          "className": ""
+        },
+        {
+          "text": "Mi perfil",
+          "className": ""
+        },
+        {
+          "text": "Ver mi app",
+          "className": "preview-link"
+        }
+      ],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "coach",
+      "target": "/ejercicios",
+      "actual": "/ejercicios",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Ejercicios",
+        "Saltar cuerda",
+        "Elíptica",
+        "Bicicleta estática",
+        "Cinta de correr",
+        "Crunch en máquina",
+        "Crunch abdominal",
+        "Plancha frontal",
+        "Fondos en banco",
+        "Extensión de tríceps con mancuerna",
+        "Extensión de tríceps en polea",
+        "Curl martillo"
+      ],
+      "mainTextLength": 9011,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "coach",
+      "target": "/alimentacion",
+      "actual": "/alimentacion",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Alimentación",
+        "Sin plan para este día"
+      ],
+      "mainTextLength": 255,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "coach",
+      "target": "/progreso?studentId=9ae5411a-303d-44c8-8aae-257a0052a61f",
+      "actual": "/progreso",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Luna ficticia",
+        "Últimos 7 días",
+        "Por ejercicio",
+        "Último entrenamiento"
+      ],
+      "mainTextLength": 2147,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "coach",
+      "target": "/antropometria?studentId=9ae5411a-303d-44c8-8aae-257a0052a61f",
+      "actual": "/antropometria",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Antropometría"
+      ],
+      "mainTextLength": 690,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "coach",
+      "target": "/alumnos/9ae5411a-303d-44c8-8aae-257a0052a61f/exportar",
+      "actual": "/alumnos/9ae5411a-303d-44c8-8aae-257a0052a61f/exportar",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Exportar Luna ficticia",
+        "PDF privado"
+      ],
+      "mainTextLength": 405,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "coach",
+      "target": "/marca",
+      "actual": "/marca",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Mi marca",
+        "Datos del estudio",
+        "Una idea de tu app"
+      ],
+      "mainTextLength": 599,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "coach",
+      "target": "/cuenta",
+      "actual": "/cuenta",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Mi mensualidad",
+        "Coach Aurora · PRUEBA"
+      ],
+      "mainTextLength": 153,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "coach",
+      "target": "/mensualidades",
+      "actual": "/mensualidades",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Mensualidades de alumnos",
+        "Sol ficticio",
+        "Pausa ficticio",
+        "Luna ficticia",
+        "Invitación pendiente ficticia"
+      ],
+      "mainTextLength": 461,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "coach",
+      "target": "/mi-perfil",
+      "actual": "/mi-perfil",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Mi perfil",
+        "Mi cuenta"
+      ],
+      "mainTextLength": 211,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "student",
+      "target": "/alumno",
+      "actual": "/alumno",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Hola, Luna",
+        "Tu próximo entrenamiento",
+        "Rutina ficticia · Aurora"
+      ],
+      "mainTextLength": 177,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "student",
+      "target": "/alumno",
+      "actual": "/alumno",
+      "width": 320,
+      "viewport": 320,
+      "documentWidth": 320,
+      "headings": [
+        "Hola, Luna",
+        "Tu próximo entrenamiento",
+        "Rutina ficticia · Aurora"
+      ],
+      "mainTextLength": 177,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "student",
+      "target": "/alumno",
+      "actual": "/alumno",
+      "width": 1366,
+      "viewport": 1366,
+      "documentWidth": 1366,
+      "headings": [
+        "Hola, Luna",
+        "Tu próximo entrenamiento",
+        "Rutina ficticia · Aurora"
+      ],
+      "mainTextLength": 177,
+      "smallTargets": [
+        {
+          "text": "Hoy",
+          "className": "router-link-active router-link-exact-active active"
+        },
+        {
+          "text": "Entrenar",
+          "className": ""
+        },
+        {
+          "text": "Comidas",
+          "className": ""
+        },
+        {
+          "text": "Historial",
+          "className": ""
+        },
+        {
+          "text": "Mi perfil",
+          "className": ""
+        }
+      ],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "student",
+      "target": "/entrenar",
+      "actual": "/entrenar",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Tu entrenamiento.",
+        "Prepara tu próximo paso."
+      ],
+      "mainTextLength": 244,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "student",
+      "target": "/alimentacion",
+      "actual": "/alimentacion",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Mi alimentación",
+        "Sin plan para este día"
+      ],
+      "mainTextLength": 225,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "student",
+      "target": "/historial",
+      "actual": "/historial",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Historial",
+        "Día de prueba 1"
+      ],
+      "mainTextLength": 665,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "student",
+      "target": "/documentos",
+      "actual": "/documentos",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Mis documentos"
+      ],
+      "mainTextLength": 77,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "student",
+      "target": "/antropometria",
+      "actual": "/antropometria",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Antropometría"
+      ],
+      "mainTextLength": 641,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "student",
+      "target": "/mi-perfil",
+      "actual": "/mi-perfil",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Mi perfil",
+        "Mis datos"
+      ],
+      "mainTextLength": 154,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "admin",
+      "target": "/admin",
+      "actual": "/admin",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Coaches y acceso",
+        "Coach pendiente · PRUEBA",
+        "Coach Brisa · PRUEBA",
+        "Coach Aurora · PRUEBA"
+      ],
+      "mainTextLength": 455,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "admin",
+      "target": "/admin",
+      "actual": "/admin",
+      "width": 1366,
+      "viewport": 1366,
+      "documentWidth": 1366,
+      "headings": [
+        "Coaches y acceso",
+        "Coach pendiente · PRUEBA",
+        "Coach Brisa · PRUEBA",
+        "Coach Aurora · PRUEBA"
+      ],
+      "mainTextLength": 455,
+      "smallTargets": [
+        {
+          "text": "Inicio",
+          "className": ""
+        },
+        {
+          "text": "Alumnos",
+          "className": ""
+        },
+        {
+          "text": "Rutinas",
+          "className": ""
+        },
+        {
+          "text": "Ejercicios",
+          "className": ""
+        },
+        {
+          "text": "Dieta",
+          "className": ""
+        },
+        {
+          "text": "Administración",
+          "className": "router-link-active router-link-exact-active"
+        },
+        {
+          "text": "Mi perfil",
+          "className": ""
+        },
+        {
+          "text": "Ver mi app",
+          "className": "preview-link"
+        }
+      ],
+      "largeGaps": [],
+      "alerts": []
+    },
+    {
+      "role": "public",
+      "target": "/acceso",
+      "actual": "/acceso",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Tu espacio, en el móvil."
+      ],
+      "mainTextLength": 317,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": [
+        "No pudimos preparar el acceso sin conexión. Comprueba tu conexión y vuelve a abrir la app."
+      ]
+    },
+    {
+      "role": "public",
+      "target": "/registro",
+      "actual": "/registro",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Tu espacio, en el móvil."
+      ],
+      "mainTextLength": 317,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": [
+        "No pudimos preparar el acceso sin conexión. Comprueba tu conexión y vuelve a abrir la app."
+      ]
+    },
+    {
+      "role": "public",
+      "target": "/recuperar",
+      "actual": "/recuperar",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Tu espacio, en el móvil."
+      ],
+      "mainTextLength": 317,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": [
+        "No pudimos preparar el acceso sin conexión. Comprueba tu conexión y vuelve a abrir la app."
+      ]
+    },
+    {
+      "role": "public",
+      "target": "/privacidad",
+      "actual": "/privacidad",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "headings": [
+        "Tu información, en tu espacio.",
+        "Quién ve tus datos",
+        "Qué se publica",
+        "Mediciones y fotos opcionales",
+        "Información de la cuenta comercial",
+        "Cómo pedir ayuda",
+        "Uso de esta versión"
+      ],
+      "mainTextLength": 2462,
+      "smallTargets": [],
+      "largeGaps": [],
+      "alerts": []
+    }
+  ],
+  "pageErrors": [],
+  "apiErrors": [],
+  "screenshots": [
+    "docs/evidencias/ux-coach-alumnos-9ae5411a-303d-44c8-8aae-257a0052.png",
+    "docs/evidencias/ux-coach-rutinas.png",
+    "docs/evidencias/ux-coach-alimentacion.png",
+    "docs/evidencias/ux-student-alumno.png",
+    "docs/evidencias/ux-student-historial.png",
+    "docs/evidencias/ux-admin-admin.png"
+  ],
+  "status": "completed"
+}

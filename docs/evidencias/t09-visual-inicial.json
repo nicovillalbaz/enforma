@@ -1,0 +1,17 @@
+{
+  "scope": "synthetic-local-only",
+  "version": "0.9.0",
+  "browserInstances": 1,
+  "pdfGenerations": 0,
+  "viewportWidths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "errors": [],
+  "professionalPhotoRead": 200,
+  "status": "failed",
+  "stage": "menu-pdf",
+  "failure": "{\"code\":\"INVALID_CSRF\",\"message\":\"Actualiza la página e inténtalo de nuevo.\",\"request_id\":\"fyf2taAFNUA3\"}\n\n403 !== 201\n"
+}

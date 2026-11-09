@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-21T16:19:08.862Z",
+  "scope": "local-only",
+  "checks": {
+    "database": true,
+    "disk": true,
+    "mediaWorker": true,
+    "queue": false,
+    "localBackup": true
+  },
+  "databaseBytes": 17101283,
+  "diskFreeBytes": 67141783552,
+  "diskTotalBytes": 510849445888,
+  "failedJobs": 10,
+  "delayedJobs": 455,
+  "pendingByKind": [
+    {
+      "kind": "email.invitation",
+      "pending": 252,
+      "delayed": 242
+    },
+    {
+      "kind": "email.verification",
+      "pending": 225,
+      "delayed": 212
+    },
+    {
+      "kind": "system.echo",
+      "pending": 1,
+      "delayed": 1
+    }
+  ],
+  "workerCount": 1,
+  "storageBytes": 385746,
+  "enabledStudents": 219,
+  "estimatedStorage100Bytes": 176140,
+  "backupAgeHours": 0.12922,
+  "externalBackupVerified": false,
+  "cost100": {
+    "vpsPyg": null,
+    "backupPyg": null,
+    "supportPyg": null,
+    "totalKnownPyg": null,
+    "excludes": "Dominio, impuestos, egreso, crecimiento de medios y costes no introducidos; no es una tarifa comercial."
+  }
+}

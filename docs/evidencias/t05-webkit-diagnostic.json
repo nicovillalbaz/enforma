@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-21T12:54:47.259Z",
+  "platform": "win32",
+  "playwright": "1.64.1",
+  "scope": "Loopback synthetic literal response; no Forma code or data",
+  "results": [
+    {
+      "engine": "chromium",
+      "mode": "literal",
+      "outage": "offline-flag",
+      "browser": "156.0.8078.4",
+      "status": 200,
+      "fromServiceWorker": true,
+      "heading": "Synthetic offline shell"
+    },
+    {
+      "engine": "chromium",
+      "mode": "literal",
+      "outage": "origin-stopped",
+      "browser": "156.0.8078.4",
+      "status": 200,
+      "fromServiceWorker": true,
+      "heading": "Synthetic offline shell"
+    },
+    {
+      "engine": "chromium",
+      "mode": "cache-only",
+      "outage": "offline-flag",
+      "browser": "156.0.8078.4",
+      "status": 200,
+      "fromServiceWorker": true,
+      "heading": "Synthetic offline shell"
+    },
+    {
+      "engine": "chromium",
+      "mode": "cache-only",
+      "outage": "origin-stopped",
+      "browser": "156.0.8078.4",
+      "status": 200,
+      "fromServiceWorker": true,
+      "heading": "Synthetic offline shell"
+    },
+    {
+      "engine": "webkit",
+      "mode": "literal",
+      "outage": "offline-flag",
+      "browser": "27.2",
+      "status": 200,
+      "fromServiceWorker": true,
+      "heading": "Synthetic offline shell"
+    },
+    {
+      "engine": "webkit",
+      "mode": "literal",
+      "outage": "origin-stopped",
+      "browser": "27.2",
+      "status": 200,
+      "fromServiceWorker": true,
+      "heading": "Synthetic offline shell"
+    },
+    {
+      "engine": "webkit",
+      "mode": "cache-only",
+      "outage": "offline-flag",
+      "browser": "27.2",
+      "error": "page.goto: FetchEvent.respondWith received an error: Returned response is null.\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:64984/new-document\", waiting until \"load\"\u001b[22m\n"
+    },
+    {
+      "engine": "webkit",
+      "mode": "cache-only",
+      "outage": "origin-stopped",
+      "browser": "27.2",
+      "error": "page.goto: FetchEvent.respondWith received an error: Returned response is null.\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:64986/new-document\", waiting until \"load\"\u001b[22m\n"
+    }
+  ]
+}

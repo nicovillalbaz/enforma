@@ -1,0 +1,23 @@
+{
+  "minimumInkWidth": 3.5,
+  "samples": [
+    {
+      "slug": "ez-bar-curl",
+      "before": [2.49, 9.58, 2.77],
+      "targetInkWidth": 6,
+      "viewBox": [5, 6, 531, 531]
+    },
+    {
+      "slug": "banded-row",
+      "before": [3.22, 1.82, 1.37],
+      "targetInkWidth": 3.5,
+      "viewBox": [0, -27, 564, 564]
+    },
+    {
+      "slug": "walking",
+      "before": [2.84, 2.13, 3.89],
+      "targetInkWidth": 3.8865667718191377,
+      "viewBox": [-27, -33, 565, 565]
+    }
+  ]
+}

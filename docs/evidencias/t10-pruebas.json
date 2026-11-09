@@ -1,0 +1,123 @@
+{
+  "version": "0.10.0",
+  "scope": "T10 new cases only; isolated PostgreSQL fixtures",
+  "uniqueApproved": 14,
+  "integrationApproved": 11,
+  "unitApproved": 3,
+  "fullHistoricalSuitesRun": false,
+  "runs": [
+    {
+      "file": "t10-integration.json",
+      "passed": 7,
+      "failed": 2,
+      "skipped": 0,
+      "durationMs": 2778.789794921875
+    },
+    {
+      "file": "t10-checkin-directed.json",
+      "passed": 0,
+      "failed": 2,
+      "skipped": 7,
+      "durationMs": 589.342529296875
+    },
+    {
+      "file": "t10-directed.json",
+      "passed": 3,
+      "failed": 1,
+      "skipped": 7,
+      "durationMs": 3834.727783203125
+    },
+    {
+      "file": "t10-resource-directed.json",
+      "passed": 1,
+      "failed": 0,
+      "skipped": 10,
+      "durationMs": 163.60498046875
+    },
+    {
+      "file": "t10-unit.json",
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "durationMs": 4.267333984375
+    }
+  ],
+  "cases": [
+    {
+      "name": "isolates pairs, including the owner of another professional conversation and raw RLS",
+      "status": "passed",
+      "durationMs": 248.05019999999968
+    },
+    {
+      "name": "persists concurrent ordering, exact retries, pagination and monotonic reading",
+      "status": "passed",
+      "durationMs": 352.39670000000024
+    },
+    {
+      "name": "deduplicates notifications per thread and honors user preferences without losing unread messages",
+      "status": "passed",
+      "durationMs": 106.34870000000046
+    },
+    {
+      "name": "authenticates sockets and invalidates after commit, rechecking revoked links",
+      "status": "passed",
+      "durationMs": 1044.9875000000002
+    },
+    {
+      "name": "processes one private pupil image, blocks library reuse, and revokes file access",
+      "status": "passed",
+      "durationMs": 289.8731000000007
+    },
+    {
+      "name": "requires separate consent, preserves null and zero, and rejects stale habit edits",
+      "status": "passed",
+      "durationMs": 257.78460000000086
+    },
+    {
+      "name": "expires old content and fails closed when PDF scanning is not configured",
+      "status": "passed",
+      "durationMs": 72.78989999999976
+    },
+    {
+      "name": "freezes check-in versions, records false and zero once, reviews and locks editing",
+      "status": "passed",
+      "durationMs": 320.8154999999997
+    },
+    {
+      "name": "deduplicates due notices, rejects late answers and allows voluntary decline without consent",
+      "status": "passed",
+      "durationMs": 604.4621999999999
+    },
+    {
+      "name": "normalizes one tiny audio and one tiny video sequentially inside the shared quota",
+      "status": "passed",
+      "durationMs": 2875.7277999999997
+    },
+    {
+      "name": "revalidates explicitly shared T08 resources on each download and rejects another conversation",
+      "status": "passed",
+      "durationMs": 163.60500000000047
+    },
+    {
+      "name": "clamps monthly day 31 at February and preserves weekly ISO weekdays",
+      "status": "passed",
+      "durationMs": 3.0074000000000183
+    },
+    {
+      "name": "keeps false and zero, rejects unknown fields and invalid scales",
+      "status": "passed",
+      "durationMs": 0.8385000000000105
+    },
+    {
+      "name": "does not count absent habits as zero or infer a target",
+      "status": "passed",
+      "durationMs": 0.26729999999997744
+    }
+  ],
+  "notes": [
+    "Fixture setup initially failed before any case ran; alias corrected.",
+    "Two check-in cases retried alone after SQL alias correction.",
+    "Resource fixture numeric type corrected and only that case repeated.",
+    "No new backup/restore, Docker, ClamAV installation or browser matrix."
+  ]
+}

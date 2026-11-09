@@ -1,0 +1,16 @@
+{
+  "version": "0.13.0",
+  "packageManifests": 7,
+  "versionsAligned": true,
+  "uniqueNewCasesPassed": 4,
+  "browserInstances": 1,
+  "browserDurationMs": 15274,
+  "domainMutations": 0,
+  "pageErrors": [],
+  "pdfGenerations": 0,
+  "historicalSuitesRun": false,
+  "backupRestoreRun": false,
+  "scope": "independent-coaches-only",
+  "creatorSignature": "Creado por NAVZ, +595972995557",
+  "nextMigration": "023"
+}

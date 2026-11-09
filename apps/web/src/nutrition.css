@@ -1,0 +1,485 @@
+.nutrition-workspace {
+  display: grid;
+  gap: 14px;
+  min-width: 0;
+  max-width: 1440px;
+  margin-inline: auto;
+}
+.nutrition-workspace * {
+  min-width: 0;
+}
+.nutrition-heading {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.nutrition-heading h1 {
+  font-size: clamp(1.35rem, 2.5vw, 1.7rem);
+  letter-spacing: -0.04em;
+}
+.nutrition-heading .eyebrow {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.nutrition-tabs,
+.nutrition-days {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 4px 0 10px;
+  max-width: 100%;
+  scrollbar-width: thin;
+}
+.nutrition-tabs > button,
+.nutrition-days > button {
+  flex: none;
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 10px 15px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+.nutrition-tabs > button[aria-current],
+.nutrition-days > button[aria-pressed='true'] {
+  background: var(--brand);
+  color: var(--brand-text);
+  border-color: var(--brand);
+}
+.nutrition-workspace .ui-card {
+  padding: 22px;
+}
+.nutrition-create-plan {
+  justify-self: start;
+}
+.nutrition-workspace .field input,
+.nutrition-workspace .field select,
+.nutrition-workspace .field textarea {
+  font-size: 16px;
+  min-height: 44px;
+  width: 100%;
+  max-width: 100%;
+}
+.nutrition-workspace .field textarea {
+  resize: vertical;
+}
+.nutrition-workspace .field {
+  display: grid;
+  gap: 8px;
+}
+.nutrition-workspace :is(p, small, h1, h2, h3, strong, summary) {
+  overflow-wrap: anywhere;
+}
+.nutrition-workspace h2 {
+  font-size: 1.35rem;
+  letter-spacing: -0.025em;
+}
+.nutrition-workspace h3 {
+  font-size: 1.08rem;
+}
+.nutrition-workspace p {
+  line-height: 1.65;
+}
+.nutrition-editor,
+.nutrition-privacy,
+.nutrition-professionals,
+.nutrition-assignment-form {
+  display: grid;
+  gap: 18px;
+}
+.nutrition-form-grid,
+.nutrition-nutrients,
+.nutrition-summary,
+.nutrition-card-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+}
+.nutrition-section-heading {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.nutrition-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.nutrition-actions > button {
+  min-height: 44px;
+}
+.nutrition-check {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  font-size: 15px;
+  line-height: 1.6;
+  padding: 10px 0;
+  cursor: pointer;
+  min-height: 44px;
+}
+.nutrition-check input {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-top: 2px;
+  accent-color: var(--brand);
+}
+.nutrition-note {
+  padding: 14px 16px;
+  background: var(--surface-soft, var(--surface));
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--brand);
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 1.65;
+}
+.nutrition-ingredient {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 44px;
+  gap: 8px;
+  align-items: end;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 10px;
+}
+.nutrition-ingredient .field {
+  min-width: 0;
+}
+.nutrition-ingredient .field:first-child {
+  grid-column: 1/-1;
+}
+.nutrition-ingredient > button {
+  grid-column: 2;
+  width: 44px;
+  min-width: 44px;
+  height: 44px;
+  padding: 0;
+  justify-content: center;
+}
+.nutrition-meal-edit {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  display: grid;
+  gap: 16px;
+}
+.nutrition-save {
+  position: sticky;
+  bottom: calc(84px + env(safe-area-inset-bottom));
+  z-index: 4;
+  background: var(--surface);
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  justify-content: space-between;
+  box-shadow: 0 4px 20px #07102214;
+}
+.nutrition-save > button {
+  flex-shrink: 0;
+  white-space: normal;
+}
+.nutrition-empty {
+  text-align: center;
+  padding-block: 24px !important;
+  color: var(--muted);
+}
+.nutrition-empty svg {
+  margin-inline: auto;
+  color: var(--brand-ink);
+}
+.nutrition-context-note {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-soft);
+  font-size: 13px;
+}
+.nutrition-context-note a {
+  color: var(--brand-ink);
+  font-weight: 600;
+}
+.nutrition-filters {
+  display: grid;
+  gap: 14px;
+  align-items: end;
+}
+.nutrition-date {
+  max-width: 340px;
+  margin-block: 10px 20px;
+}
+.nutrition-day-view {
+  display: grid;
+  gap: 20px;
+}
+.nutrition-plan-heading {
+  border-top: 3px solid var(--brand);
+}
+.nutrition-summary strong {
+  display: block;
+  font-size: 1.55rem;
+  letter-spacing: -0.04em;
+  margin-top: 10px;
+}
+.nutrition-summary p {
+  font-size: 13px;
+  color: var(--muted);
+}
+.nutrition-meal-card {
+  display: grid;
+  gap: 14px;
+  container-type: inline-size;
+}
+.nutrition-meal-card header {
+  position: relative;
+}
+.nutrition-meal-card h3 {
+  font-size: 1.35rem;
+  letter-spacing: -0.025em;
+}
+.nutrition-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 4px 8px;
+  border-radius: 7px;
+  background: var(--surface-soft);
+  font-size: 12px;
+}
+.nutrition-workspace details {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px 16px;
+  background: var(--surface);
+}
+.nutrition-workspace summary {
+  min-height: 44px;
+  line-height: 1.6;
+  cursor: pointer;
+  font-weight: 600;
+  display: list-item;
+}
+.nutrition-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+.nutrition-list li {
+  padding-block: 10px;
+  border-bottom: 1px solid var(--line);
+}
+.nutrition-list small {
+  display: block;
+  line-height: 1.7;
+  color: var(--muted);
+  margin-top: 4px;
+}
+.nutrition-record {
+  background: var(--surface-soft);
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+}
+.nutrition-record p {
+  margin-bottom: 0;
+}
+.nutrition-inline-form {
+  display: grid;
+  gap: 14px;
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+}
+.nutrition-person {
+  display: grid;
+  gap: 10px;
+  padding-block: 18px;
+  border-bottom: 1px solid var(--line);
+}
+.nutrition-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+.nutrition-photo-grid figure {
+  margin: 0;
+}
+.nutrition-photo-grid img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.nutrition-photo-grid button,
+.nutrition-history button {
+  min-height: 44px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+}
+.nutrition-comments blockquote {
+  border-left: 2px solid var(--brand);
+  margin: 10px 0;
+  padding: 8px 16px;
+  background: var(--surface-soft);
+}
+.nutrition-comments small {
+  color: var(--muted);
+}
+.nutrition-catalog {
+  display: grid;
+  gap: 12px;
+}
+.nutrition-catalog > .nutrition-section-heading {
+  justify-content: flex-end;
+}
+.nutrition-catalog-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.nutrition-catalog-card :is(h3, p) {
+  margin: 0;
+}
+.nutrition-catalog-card p {
+  font-size: 0.86rem;
+  line-height: 1.4;
+}
+.nutrition-catalog-card .nutrition-actions {
+  margin-top: 2px;
+}
+.nutrition-search {
+  max-width: 520px;
+}
+.nutrition-assignments > article {
+  border-bottom: 1px solid var(--line);
+  padding-block: 18px;
+}
+.nutrition-text-button {
+  font: inherit;
+  background: none;
+  border: 0;
+  text-decoration: underline;
+  color: var(--brand-ink);
+  padding: 8px;
+  min-height: 44px;
+  cursor: pointer;
+}
+.nutrition-upload {
+  overflow: hidden;
+}
+.nutrition-workspace .form-error {
+  overflow-wrap: anywhere;
+}
+.nutrition-workspace button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+@media (min-width: 640px) {
+  .nutrition-form-grid,
+  .nutrition-summary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .nutrition-nutrients {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .nutrition-ingredient {
+    grid-template-columns: minmax(0, 1fr) minmax(100px, 0.4fr) auto;
+    gap: 12px;
+    padding: 14px;
+  }
+  .nutrition-ingredient .field:first-child,
+  .nutrition-ingredient > button {
+    grid-column: auto;
+  }
+  .nutrition-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 639px) {
+  .nutrition-create-plan {
+    justify-self: stretch;
+    width: 100%;
+  }
+}
+@media (min-width: 900px) {
+  .nutrition-save {
+    bottom: 20px;
+  }
+  .nutrition-filters {
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  }
+  .nutrition-editor {
+    max-width: 1080px;
+  }
+  .nutrition-workspace .ui-card {
+    padding: 28px;
+  }
+  .nutrition-workspace .nutrition-catalog-card {
+    padding: 16px;
+  }
+}
+@media (min-width: 1180px) {
+  .nutrition-card-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .nutrition-nutrients {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .nutrition-day-view {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+  }
+  .nutrition-day-view > .nutrition-empty {
+    grid-column: 1 / -1;
+  }
+  .nutrition-plan-heading,
+  .nutrition-day-view > .nutrition-summary,
+  .nutrition-day-view > .nutrition-note,
+  .nutrition-day-view > .form-error {
+    grid-column: 1/-1;
+  }
+  .nutrition-day-view > .nutrition-summary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.nutrition-macro-summary {
+  display: grid;
+  gap: 10px;
+  font-size: 13px;
+}
+.nutrition-macro-summary div {
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+.nutrition-macro-summary dt {
+  font-weight: 600;
+}
+.nutrition-macro-summary dd {
+  margin: 4px 0 0;
+  color: var(--muted);
+  line-height: 1.6;
+}

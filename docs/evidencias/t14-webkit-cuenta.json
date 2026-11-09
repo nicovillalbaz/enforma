@@ -1,0 +1,26 @@
+{
+  "version": "0.14.1",
+  "scope": "isolated-webkit-payment-continuation",
+  "status": "passed",
+  "browserInstances": 1,
+  "screenshots": 0,
+  "traces": 0,
+  "pdfGenerations": 0,
+  "mainDatabaseDomainMutations": 0,
+  "mailsSent": 0,
+  "checks": [
+    "lost response preserves amount, reference and native selected file",
+    "retry keeps intention ID, creates one payment, settles account and clears native input",
+    "private receipt allowed to owner and denied to pupil",
+    "owner read only, no overflow at 320/1440, field 16px and native zoom allowed"
+  ],
+  "pageErrors": [],
+  "limits": "One WebKit page, 45 second work budget, 6 second individual UI actions; no historical workout/progress flow or native iPhone claim.",
+  "viewportWidths": [
+    320,
+    1440
+  ],
+  "isolatedDatabaseDropped": true,
+  "isolatedStorageRemoved": true,
+  "durationMs": 27664
+}

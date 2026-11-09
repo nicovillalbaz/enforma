@@ -1,0 +1,574 @@
+/* Una superficie continua para las vistas de trabajo. Los límites marcan secciones, no tarjetas. */
+.main-shell,
+.page-content,
+.page-footer {
+  background: var(--surface);
+}
+
+.login-art {
+  display: none;
+}
+
+.onboarding-page {
+  background: var(--surface);
+}
+
+.onboarding-card {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.onboarding-card h1 {
+  font-size: clamp(22px, 4vw, 28px);
+}
+
+.onboarding-page .legal-page,
+.onboarding-page .pwa-launch,
+.information-page .information-card {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.page-content {
+  min-height: calc(100dvh - 54px);
+}
+
+.page-content .ui-card {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.page-content .ui-card__header {
+  padding: 12px 0 10px;
+}
+
+.page-content .ui-card__header p {
+  line-height: 1.4;
+}
+
+.page-content .ui-card .settings-form {
+  padding-inline: 0;
+}
+
+.study-required {
+  display: grid;
+  justify-items: start;
+  gap: 14px;
+  padding: 18px 0;
+}
+
+.study-required h1 {
+  font-size: 21px;
+  margin: 0;
+}
+
+.sidebar nav[aria-label='Navegación principal'] {
+  margin-top: 24px;
+}
+
+.sidebar nav[aria-label='Configuración'] {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.page-content .page-heading {
+  margin-bottom: 14px;
+}
+
+.page-content .page-heading p {
+  max-width: 58ch;
+  line-height: 1.4;
+}
+
+.page-content .install-page h1,
+.page-content .billing-panel h1,
+.page-content .access-state h1,
+.page-content .student-hero h2 {
+  font-size: clamp(21px, 3vw, 27px);
+  line-height: 1.25;
+}
+
+.page-content .coach-metrics {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  border-block: 1px solid var(--line);
+}
+
+.page-content .coach-metrics .ui-card {
+  border-bottom: 0;
+  padding: 12px;
+  gap: 3px;
+}
+
+.page-content .coach-metrics .ui-card + .ui-card {
+  border-left: 1px solid var(--line);
+}
+
+.page-content .coach-metrics .ui-card > svg {
+  display: block;
+}
+
+.page-content .coach-next-action {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  padding: 8px 0 14px;
+}
+
+.page-content .student-list-compact,
+.page-content .demo-list {
+  gap: 0;
+}
+
+.page-content .student-list-row,
+.page-content .demo-student,
+.page-content .student-home-actions a,
+.page-content .student-record-actions a,
+.page-content .profile-links a,
+.page-content .profile-links button {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+}
+
+.page-content .student-record-snapshot > div {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  padding-inline: 0;
+}
+
+.page-content .student-home-actions {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
+  margin: 10px 0 18px;
+}
+
+.page-content .student-home-actions a {
+  min-height: 48px;
+  padding-inline: 0;
+}
+
+.demo-program-row,
+.demo-exercise-row {
+  border-bottom: 1px solid var(--line);
+  padding: 14px 0;
+}
+
+.demo-program-row h2 {
+  font-size: 16px;
+  margin: 0 0 5px;
+}
+
+.demo-program-row p,
+.demo-exercise-row small,
+.demo-exercise-detail p {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.demo-exercise-row summary {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 56px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.demo-exercise-row summary::-webkit-details-marker {
+  display: none;
+}
+
+.demo-exercise-row summary > span:last-child {
+  display: grid;
+  gap: 3px;
+}
+
+.demo-exercise-row strong {
+  font-size: 14px;
+}
+
+.demo-exercise-symbol {
+  flex: 0 0 72px;
+  width: 72px;
+  height: 58px;
+  background: var(--surface-soft);
+  border-radius: 8px;
+}
+
+.demo-exercise-frames {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  max-width: 320px;
+  margin: 8px 0;
+}
+
+.demo-exercise-frames > svg {
+  height: 100px;
+  padding: 6px;
+  background: var(--surface-soft);
+  border-radius: 8px;
+}
+
+.demo-today {
+  padding: 16px 0;
+  border-block: 1px solid var(--line);
+}
+
+.demo-today h2 {
+  font-size: 18px;
+  margin: 0 0 4px;
+}
+
+.demo-today p {
+  margin: 0 0 12px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.demo-session-frames {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  max-width: 360px;
+}
+
+.demo-session-frames > svg {
+  height: 120px;
+  padding: 8px;
+  background: var(--surface-soft);
+  border-radius: 8px;
+}
+
+.page-content .empty-state {
+  min-height: 0;
+  padding: 18px 0;
+  gap: 4px;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.page-content .empty-state h2 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.page-content .empty-state p {
+  margin: 0;
+  line-height: 1.45;
+}
+
+.page-content .progress-panel,
+.page-content .progress-roster {
+  gap: 16px;
+}
+
+.page-content .progress-metrics {
+  gap: 0;
+  border-block: 1px solid var(--line);
+}
+
+.page-content .progress-metric {
+  padding: 12px 0;
+  gap: 3px;
+}
+
+.page-content .progress-metric > strong {
+  font-size: clamp(24px, 4vw, 30px);
+}
+
+.page-content .progress-metric-icon {
+  display: none;
+}
+
+.page-content .progress-metric > span:not(.progress-metric-icon) {
+  padding-right: 0;
+}
+
+.page-content .student-export-counts span {
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.page-content .program-card-grid,
+.page-content .program-assignment-grid,
+.page-content .nutrition-card-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
+  max-width: 1000px;
+}
+
+.page-content .program-card-body,
+.page-content .program-assignment {
+  padding: 14px 0;
+}
+
+.page-content .program-card-actions {
+  margin-top: 12px;
+  padding-top: 10px;
+}
+
+.program-card-heading {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+}
+
+.page-content .program-card-heading h2 {
+  min-width: 0;
+  margin: 0;
+}
+
+.program-card-meta {
+  color: var(--muted);
+  font-size: 12px;
+  margin: 4px 0;
+}
+
+.page-content .demo-student {
+  margin: 0;
+}
+
+.page-content .monthly-grid {
+  display: block;
+  max-width: 1000px;
+}
+
+.page-content .monthly-grid .monthly-card {
+  border: 0;
+  border-top: 1px solid var(--line);
+  border-radius: 0;
+  padding: 16px 0;
+  gap: 10px;
+}
+
+.page-content .monthly-grid .monthly-card:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.page-content .monthly-panel {
+  padding: 14px 0;
+  margin-block: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.page-content .theme-setting {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  padding-inline: 0;
+}
+
+.brand-preview {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  padding: 14px 0;
+  border-block: 1px solid var(--line);
+}
+
+.brand-preview strong {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-size: 15px;
+}
+
+.brand-preview-mark {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  overflow: hidden;
+}
+
+.brand-preview-mark img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.install-details {
+  border-bottom: 1px solid var(--line);
+  padding: 4px 0 12px;
+}
+
+.install-details summary {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.install-details p {
+  max-width: 64ch;
+  margin-bottom: 12px;
+  color: var(--muted);
+}
+
+body .page-content .nutrition-workspace .ui-card,
+.page-content .billing-metrics > .ui-card,
+.page-content .install-card,
+.page-content .progress-metric {
+  padding: 14px 0;
+}
+
+.page-content .nutrition-save {
+  position: static;
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--line);
+  border-radius: 0;
+  box-shadow: none;
+  padding: 14px 0;
+}
+
+.page-content .nutrition-ingredient,
+.page-content .nutrition-meal-edit,
+.page-content .builder-stage,
+.page-content .program-picker,
+.page-content .program-set-fields,
+.page-content .nutrition-record {
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  background: transparent;
+  padding-inline: 0;
+}
+
+.page-content .anthro-workspace {
+  padding: 0;
+}
+
+.page-content .anthro-list {
+  gap: 0;
+}
+
+.page-content .anthro-row,
+.page-content .anthro-correct,
+.page-content .anthro-trend,
+.page-content .anthro-capture,
+.page-content .anthro-review,
+.page-content .anthro-detail,
+.page-content .anthro-custom {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  padding-inline: 0;
+}
+
+.page-content .anthro-results > div {
+  background: transparent;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+}
+
+.anthro-method-details {
+  margin: 12px 0;
+}
+
+.anthro-method-details summary {
+  cursor: pointer;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  color: var(--brand-ink);
+  font-weight: 600;
+}
+
+.anthro-method-details p + p {
+  margin-top: 8px;
+}
+
+.progress-method-details summary {
+  cursor: pointer;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: var(--brand-ink);
+}
+
+.progress-method-details p {
+  margin: 0 0 10px;
+}
+
+.nutrition-method-details summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--brand-ink);
+  font-size: 13px;
+}
+
+.nutrition-method-details p {
+  margin: 0 0 10px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+@media (min-width: 640px) {
+  .page-content .student-home-actions {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .page-content .student-home-actions a + a {
+    border-left: 1px solid var(--line);
+    padding-left: 12px;
+  }
+
+  .page-content .progress-metric + .progress-metric {
+    border-left: 1px solid var(--line);
+    padding-left: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .page-content {
+    padding-inline: 16px;
+  }
+
+  .page-content .coach-metrics .ui-card {
+    padding: 10px 8px;
+  }
+
+  .page-content .ui-card__header {
+    padding: 10px 0 8px;
+  }
+
+  .onboarding-page {
+    padding-inline: 16px;
+  }
+
+  .onboarding-card {
+    padding: 0 0 24px;
+  }
+}

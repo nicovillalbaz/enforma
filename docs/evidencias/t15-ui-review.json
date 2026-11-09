@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-24",
+  "scope": "existing-synthetic-demo-ui",
+  "browserInstances": 1,
+  "pageErrors": [],
+  "checks": [
+    {
+      "label": "installation-first",
+      "result": "reused from initial report; not repeated"
+    },
+    {
+      "label": "new-student-390",
+      "width": 390,
+      "overflow": false,
+      "dialogs": 0,
+      "inputFonts": [
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "label": "new-student-320",
+      "width": 320,
+      "overflow": false,
+      "dialogs": 0,
+      "inputFonts": [
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "label": "cancel-discard-keeps-draft",
+      "result": "passed; explicit confirm then left without creating a pupil"
+    },
+    {
+      "label": "routine-1366",
+      "width": 1366,
+      "overflow": false,
+      "dialogs": 0,
+      "inputFonts": [
+        16
+      ]
+    },
+    {
+      "label": "desktop-routine",
+      "visibleStages": 1,
+      "internalScrolls": 0,
+      "actionsPosition": "static"
+    },
+    {
+      "label": "create-exercise-in-routine",
+      "result": "passed; empty exercise form and routine draft retained; no exercise saved"
+    }
+  ],
+  "screenshots": [
+    "t15-mobile.png",
+    "t15-desktop.png"
+  ],
+  "businessWrites": 0,
+  "status": "passed",
+  "durationMs": 3137
+}

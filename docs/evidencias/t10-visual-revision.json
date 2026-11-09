@@ -1,0 +1,26 @@
+{
+  "version": "0.10.0",
+  "scope": "synthetic-local-only",
+  "browserInstances": 4,
+  "pdfGenerations": 0,
+  "viewportWidths": [
+    320,
+    390,
+    768,
+    1440,
+    320
+  ],
+  "errors": [],
+  "checks": [
+    "two-context chat and WebSocket refresh",
+    "habit UI with optional target",
+    "template save, publish and schedule through UI",
+    "pupil habit zero and check-in response"
+  ],
+  "continuedFrom": "t10-visual-respuesta.json",
+  "status": "failed",
+  "durationMs": 16616,
+  "totalObservedMs": 58471,
+  "failedStage": "coach-review",
+  "failure": "locator.waitFor: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.followup-checkin').filter({ hasText: 'Tu semana · QA T10 60f4' }).filter({ has: getByLabel('Revisión compartida con el alumno', { exact: true }) }).getByText('Revisado', { exact: true }) to be visible\u001b[22m\n"
+}

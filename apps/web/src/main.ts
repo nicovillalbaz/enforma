@@ -1,0 +1,20 @@
+import { createApp } from 'vue';
+import { createPinia } from 'pinia';
+import '@forma/ui/tokens.css';
+import './style.css';
+import './programs.css';
+import './workouts.css';
+import './progress.css';
+import './billing.css';
+import App from './App.vue';
+import './compact.css';
+import './t16.css';
+import './workspace-surface.css';
+import { initializePwa } from './pwa';
+import { useStudio } from './stores/studio';
+import { router } from './router';
+const app = createApp(App),
+  pinia = createPinia();
+app.use(pinia).use(router);
+initializePwa(useStudio(pinia));
+app.mount('#app');
